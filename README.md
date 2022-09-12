@@ -12,7 +12,7 @@ ONUXT Alternative
 
 - Component stories via [Histoire](https://histoire.dev)
 
-- [TailwindCSS](https://tailwindcss.nuxtjs.org)
+- [TailwindCSS](https://tailwindcss.nuxtjs.org) + [@headlessui/vue](https://headlessui.com/vue/menu)
 
 - Use icons from any icon sets via [NuxtIcon](https://github.com/nuxt-modules/icon)
 
