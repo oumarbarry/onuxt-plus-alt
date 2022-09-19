@@ -26,7 +26,7 @@ specifiers:
   lint-staged: 13.0.3
   msw: 0.47.2
   nuxt: 3.0.0-rc.9
-  nuxt-icon: 0.1.5
+  nuxt-icon: 0.1.6
   postcss-html: 1.5.0
   prettier: 2.7.1
   sass: 1.54.9
@@ -68,7 +68,7 @@ devDependencies:
   lint-staged: 13.0.3
   msw: 0.47.2_typescript@4.8.3
   nuxt: 3.0.0-rc.9_xqorulhxkfyxjp4afl6pjkafnu
-  nuxt-icon: 0.1.5
+  nuxt-icon: 0.1.6
   postcss-html: 1.5.0
   prettier: 2.7.1
   sass: 1.54.9
@@ -5770,8 +5770,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /nuxt-icon/0.1.5:
-    resolution: {integrity: sha512-ecq41pjcH7wBV+yil6MqtNOlng81QE/wfcrfKDwm8Z4EyLccd1rUG5peauaR8cb3YaUShGKbjyDgJgD0tPefrg==}
+  /nuxt-icon/0.1.6:
+    resolution: {integrity: sha512-kxw2a1VcLpqzFp0q84AhRykXOnVO5p8dEIPF0GWbFiAOK0pn1acCbTVRbgKm4sD3H+g1v3Gm8OYvl71TCDDkqg==}
     dependencies:
       '@iconify/vue': 3.2.1
       '@nuxt/kit': 3.0.0-rc.9
