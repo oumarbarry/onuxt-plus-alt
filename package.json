@@ -37,7 +37,7 @@
     "@vueuse/nuxt": "9.2.0",
     "eslint": "8.24.0",
     "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-jsonc": "2.4.0",
+    "eslint-plugin-jsonc": "2.5.0",
     "eslint-plugin-vue": "9.5.1",
     "eslint-plugin-yml": "1.2.0",
     "happy-dom": "6.0.4",

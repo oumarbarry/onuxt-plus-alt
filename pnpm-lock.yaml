@@ -16,7 +16,7 @@ specifiers:
   '@vueuse/nuxt': 9.2.0
   eslint: 8.24.0
   eslint-config-prettier: 8.5.0
-  eslint-plugin-jsonc: 2.4.0
+  eslint-plugin-jsonc: 2.5.0
   eslint-plugin-vue: 9.5.1
   eslint-plugin-yml: 1.2.0
   happy-dom: 6.0.4
@@ -58,7 +58,7 @@ devDependencies:
   '@vueuse/nuxt': 9.2.0_nuxt@3.0.0-rc.11
   eslint: 8.24.0
   eslint-config-prettier: 8.5.0_eslint@8.24.0
-  eslint-plugin-jsonc: 2.4.0_eslint@8.24.0
+  eslint-plugin-jsonc: 2.5.0_eslint@8.24.0
   eslint-plugin-vue: 9.5.1_eslint@8.24.0
   eslint-plugin-yml: 1.2.0_eslint@8.24.0
   happy-dom: 6.0.4
@@ -3177,8 +3177,8 @@ packages:
       eslint: 8.24.0
     dev: true
 
-  /eslint-plugin-jsonc/2.4.0_eslint@8.24.0:
-    resolution: {integrity: sha512-YXy5PjyUL9gFYal6pYijd8P6EmpeWskv7PVhB9Py/AwKPn+hwnQHcIzQILiLfxztfhtWiRIUSzoLe/JThZgSUw==}
+  /eslint-plugin-jsonc/2.5.0_eslint@8.24.0:
+    resolution: {integrity: sha512-G257khwkrOQ5MJpSzz4yQh5K12W4xFZRcHmVlhVFWh2GCLDX+JwHnmkQoUoFDbOieSPBMsPFZDTJScwrXiWlIg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
