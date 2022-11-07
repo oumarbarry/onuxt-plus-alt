@@ -27,7 +27,7 @@
     "@histoire/plugin-nuxt": "0.10.7",
     "@histoire/plugin-vue": "0.10.7",
     "@nuxt/test-utils-edge": "3.0.0-rc.12-27730995.2894a75",
-    "@nuxtjs/google-fonts": "3.0.0-0",
+    "@nuxtjs/google-fonts": "3.0.0-1",
     "@nuxtjs/tailwindcss": "5.3.3",
     "@testing-library/vue": "6.6.1",
     "@typescript-eslint/eslint-plugin": "5.38.0",
