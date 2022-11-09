@@ -26,7 +26,7 @@ specifiers:
   lint-staged: 13.0.3
   msw: 0.47.4
   nuxt: 3.0.0-rc.11
-  nuxt-icon: 0.1.6
+  nuxt-icon: 0.1.7
   postcss-html: 1.5.0
   prettier: 2.7.1
   sass: 1.55.0
@@ -68,7 +68,7 @@ devDependencies:
   lint-staged: 13.0.3
   msw: 0.47.4_typescript@4.8.3
   nuxt: 3.0.0-rc.11_giocxpxpuj74pvxinrnoyuxgti
-  nuxt-icon: 0.1.6
+  nuxt-icon: 0.1.7
   postcss-html: 1.5.0
   prettier: 2.7.1
   sass: 1.55.0
@@ -525,10 +525,16 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify/vue/3.2.1:
-    resolution: {integrity: sha512-c4R6ZgFo1JrJ8aPMMgOPgfU7lBswihMGR+yWe/P4ZukC3kTkeT4+lkt9Pc/itVFMkwva/S/7u9YofmYv57fnNQ==}
+  /@iconify/types/2.0.0:
+    resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
+    dev: true
+
+  /@iconify/vue/4.0.0:
+    resolution: {integrity: sha512-73z81Yf2HISfehu3qvN9GqL1OnUO7wEMKkiFwVGJ2pqAdGCR8FrVylhRhka+6U+gFLlng0ynnT20svk3jJYwow==}
     peerDependencies:
-      vue: 3.x
+      vue: '>=3'
+    dependencies:
+      '@iconify/types': 2.0.0
     dev: true
 
   /@ioredis/commands/1.2.0:
@@ -5586,10 +5592,10 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /nuxt-icon/0.1.6:
-    resolution: {integrity: sha512-kxw2a1VcLpqzFp0q84AhRykXOnVO5p8dEIPF0GWbFiAOK0pn1acCbTVRbgKm4sD3H+g1v3Gm8OYvl71TCDDkqg==}
+  /nuxt-icon/0.1.7:
+    resolution: {integrity: sha512-JQ2OKKulcDAUMiPY3Q4YaXncL5de9fiVdrgXKnNZU3Cs2VbR//RAR9xt90+hpmVzDSdEB5UXIJLnWc5uBxm/hw==}
     dependencies:
-      '@iconify/vue': 3.2.1
+      '@iconify/vue': 4.0.0
       '@nuxt/kit': 3.0.0-rc.11
     transitivePeerDependencies:
       - supports-color
