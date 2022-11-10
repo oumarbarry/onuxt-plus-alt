@@ -21,7 +21,7 @@ specifiers:
   eslint-plugin-yml: 1.2.0
   happy-dom: 6.0.4
   histoire: 0.10.7
-  husky: 8.0.1
+  husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.0.3
   msw: 0.47.4
@@ -63,7 +63,7 @@ devDependencies:
   eslint-plugin-yml: 1.2.0_eslint@8.24.0
   happy-dom: 6.0.4
   histoire: 0.10.7_sass@1.55.0
-  husky: 8.0.1
+  husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.0.3
   msw: 0.47.4_typescript@4.8.3
@@ -4209,8 +4209,8 @@ packages:
     engines: {node: '>=12.20.0'}
     dev: true
 
-  /husky/8.0.1:
-    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
+  /husky/8.0.2:
+    resolution: {integrity: sha512-Tkv80jtvbnkK3mYWxPZePGFpQ/tT3HNSs/sasF9P2YfkMezDl3ON37YN6jUUI4eTg5LcyVynlb6r4eyvOmspvg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
