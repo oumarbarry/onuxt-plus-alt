@@ -24,7 +24,7 @@
     "@pinia/nuxt": "0.4.3"
   },
   "devDependencies": {
-    "@histoire/plugin-nuxt": "0.10.7",
+    "@histoire/plugin-nuxt": "0.11.6",
     "@histoire/plugin-vue": "0.10.7",
     "@nuxt/test-utils-edge": "3.0.0-rc.14-27799862.1496d3a",
     "@nuxtjs/google-fonts": "3.0.0-1",
