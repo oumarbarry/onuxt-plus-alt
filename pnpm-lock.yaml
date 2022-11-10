@@ -24,7 +24,7 @@ specifiers:
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.0.3
-  msw: 0.47.4
+  msw: 0.48.1
   nuxt: 3.0.0-rc.13
   nuxt-icon: 0.1.7
   postcss-html: 1.5.0
@@ -66,7 +66,7 @@ devDependencies:
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.0.3
-  msw: 0.47.4_typescript@4.8.4
+  msw: 0.48.1_typescript@4.8.4
   nuxt: 3.0.0-rc.13_zmpysnm7nrxiek2ejowonscihi
   nuxt-icon: 0.1.7
   postcss-html: 1.5.0
@@ -5561,8 +5561,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw/0.47.4_typescript@4.8.4:
-    resolution: {integrity: sha512-Psftt8Yfl0+l+qqg9OlmKEsxF8S/vtda0CmlR6y8wTaWrMMzuCDa55n2hEGC0ZRDwuV6FFWc/4CjoDsBpATKBw==}
+  /msw/0.48.1_typescript@4.8.4:
+    resolution: {integrity: sha512-lnhIsC5aQOpqu5CjJ11CPl6RYGbY9+LhZZw1zKX3S710O9qGQ7kftmfX1FifmZNk2FuKoygprKITSfqHWpE5LQ==}
     engines: {node: '>=14'}
     hasBin: true
     requiresBuild: true
