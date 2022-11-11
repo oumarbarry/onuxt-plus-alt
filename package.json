@@ -26,7 +26,7 @@
   "devDependencies": {
     "@histoire/plugin-nuxt": "0.11.6",
     "@histoire/plugin-vue": "0.11.6",
-    "@nuxt/test-utils-edge": "3.0.0-rc.14-27799862.1496d3a",
+    "@nuxt/test-utils-edge": "3.0.0-rc.14-27802701.2f53495",
     "@nuxtjs/google-fonts": "3.0.0-1",
     "@nuxtjs/tailwindcss": "5.3.5",
     "@testing-library/vue": "6.6.1",
