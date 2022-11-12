@@ -20,7 +20,7 @@ specifiers:
   eslint-plugin-vue: 9.7.0
   eslint-plugin-yml: 1.2.0
   happy-dom: 7.7.0
-  histoire: 0.11.6
+  histoire: 0.11.7
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.0.3
@@ -45,8 +45,8 @@ dependencies:
   '@pinia/nuxt': 0.4.3_typescript@4.8.4
 
 devDependencies:
-  '@histoire/plugin-nuxt': 0.11.7_46awd3v6rplwtltzlhminoxrau
-  '@histoire/plugin-vue': 0.11.7_histoire@0.11.6
+  '@histoire/plugin-nuxt': 0.11.7_l6kcw7gliarksjiy5yshm56kkm
+  '@histoire/plugin-vue': 0.11.7_histoire@0.11.7
   '@nuxt/test-utils-edge': 3.0.0-rc.14-27802701.2f53495
   '@nuxtjs/google-fonts': 3.0.0-1
   '@nuxtjs/tailwindcss': 6.1.3
@@ -62,7 +62,7 @@ devDependencies:
   eslint-plugin-vue: 9.7.0_eslint@8.27.0
   eslint-plugin-yml: 1.2.0_eslint@8.27.0
   happy-dom: 7.7.0
-  histoire: 0.11.6_sass@1.56.1
+  histoire: 0.11.7_sass@1.56.1
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.0.3
@@ -484,8 +484,8 @@ packages:
       vue: ^3.2.0
     dev: false
 
-  /@histoire/app/0.11.6:
-    resolution: {integrity: sha512-TtWcMCZTFmHutyx+RcwAXAPc2CxDAgr5mwgB2CtRYwDC3VrM/aRqWHbZtxMjKrCbq08UXLzO1d+3VXy6Y9SvPA==}
+  /@histoire/app/0.11.7:
+    resolution: {integrity: sha512-Kyi9R7MdKAE4vXp6L4DuZNNEucLJTexs3tQeHcg/YM3kGOJ4nKdJZ21MmpWXHzpLR91alSpd3da69p4pCX+pyA==}
     dependencies:
       '@histoire/controls': 0.11.7
       '@histoire/shared': 0.11.7
@@ -495,19 +495,6 @@ packages:
       shiki: 0.10.1
     transitivePeerDependencies:
       - vite
-    dev: true
-
-  /@histoire/controls/0.11.6:
-    resolution: {integrity: sha512-aJrL6OqoS9D24rBIZal6yLp9GU7XhgAh2MD6PCVjRDd6KQEv9dQbcR/BInH0FpdN5nEwXqui8XC2kbITvpw5Tw==}
-    dependencies:
-      '@codemirror/commands': 6.1.2
-      '@codemirror/lang-json': 6.0.1
-      '@codemirror/language': 6.3.0
-      '@codemirror/lint': 6.0.0
-      '@codemirror/state': 6.1.2
-      '@codemirror/theme-one-dark': 6.1.0
-      '@codemirror/view': 6.4.1
-      '@histoire/vendors': 0.11.7
     dev: true
 
   /@histoire/controls/0.11.7:
@@ -523,23 +510,23 @@ packages:
       '@histoire/vendors': 0.11.7
     dev: true
 
-  /@histoire/plugin-nuxt/0.11.7_46awd3v6rplwtltzlhminoxrau:
+  /@histoire/plugin-nuxt/0.11.7_l6kcw7gliarksjiy5yshm56kkm:
     resolution: {integrity: sha512-dg9KEbXD8xokkBAJO+ERjsCoI8ZWsT4aha9ZX8dfZiJvH6C3edQ2V1f5aDmdgn6l27f2AB4Lh86452uLgRJ8Pg==}
     peerDependencies:
       '@histoire/plugin-vue': ^0.11.7
       histoire: ^0.11.7
       nuxt: ^3.0.0-rc.11
     dependencies:
-      '@histoire/plugin-vue': 0.11.7_histoire@0.11.6
+      '@histoire/plugin-vue': 0.11.7_histoire@0.11.7
       '@nuxt/kit': 3.0.0-rc.13
-      histoire: 0.11.6_sass@1.56.1
+      histoire: 0.11.7_sass@1.56.1
       nuxt: 3.0.0-rc.13_7u57cvu3f5foajxz3cz2is6kyq
     transitivePeerDependencies:
       - rollup
       - supports-color
     dev: true
 
-  /@histoire/plugin-vue/0.11.7_histoire@0.11.6:
+  /@histoire/plugin-vue/0.11.7_histoire@0.11.7:
     resolution: {integrity: sha512-wtfBlRbqSuw5elTcjDtL/BbBuZcVC/Gr7XcUNopRe/3+aBaC7LFyaBetR3T7JuO8W2AiXcPSrMBHrZ97K7v55A==}
     peerDependencies:
       histoire: ^0.11.7
@@ -548,21 +535,9 @@ packages:
       '@histoire/controls': 0.11.7
       '@histoire/shared': 0.11.7
       '@histoire/vendors': 0.11.7
-      histoire: 0.11.6_sass@1.56.1
+      histoire: 0.11.7_sass@1.56.1
     transitivePeerDependencies:
       - vite
-    dev: true
-
-  /@histoire/shared/0.11.6:
-    resolution: {integrity: sha512-X3jsa3YQ4RrgvKRBde0RuUO3NWgJPZxsJeP0r69qbSQ7yeDQXKgbJ7VvmMg+9XZBCOBIYLPagwO5pezgmVzOzg==}
-    peerDependencies:
-      vite: ^2.9.0 || ^3.0.0
-    dependencies:
-      '@types/fs-extra': 9.0.13
-      '@types/markdown-it': 12.2.3
-      chokidar: 3.5.3
-      pathe: 0.2.0
-      picocolors: 1.0.0
     dev: true
 
   /@histoire/shared/0.11.7:
@@ -575,10 +550,6 @@ packages:
       chokidar: 3.5.3
       pathe: 0.2.0
       picocolors: 1.0.0
-    dev: true
-
-  /@histoire/vendors/0.11.6:
-    resolution: {integrity: sha512-L2l29V7jAWJdde4Uu+4j5OMLCFzuyF97zli3iM3BxZ8MxcpJXGzGGZesE0wCPGdAINbvRH8pv9GkkveYc5LXeg==}
     dev: true
 
   /@histoire/vendors/0.11.7:
@@ -4333,16 +4304,16 @@ packages:
     resolution: {integrity: sha512-AVwgTAzeGpF7kwUCMc9HbAoCKFcHGEfmWkaI8g0jprrkh9VPRaofIsfV7Lw8UuR9pi4Rk7IIjJce8l0C+jSJNA==}
     dev: true
 
-  /histoire/0.11.6_sass@1.56.1:
-    resolution: {integrity: sha512-e8q2xjOoRPjwsePzYolWoOztrqI5hPkE2HxjbMNyRYUI2JdHmwuj6pI+lKoJRckIrwi9hCMuLQCPzzm8Ocdplg==}
+  /histoire/0.11.7_sass@1.56.1:
+    resolution: {integrity: sha512-N1W5wIKXD8p26DydduiBJHewbi4t9MVA9ZNsnmMsiCfGLFUbtLbsC4/k1GKLuDuM8DhpEh4ItOEw5SLKupM5kw==}
     hasBin: true
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0
     dependencies:
-      '@histoire/app': 0.11.6
-      '@histoire/controls': 0.11.6
-      '@histoire/shared': 0.11.6
-      '@histoire/vendors': 0.11.6
+      '@histoire/app': 0.11.7
+      '@histoire/controls': 0.11.7
+      '@histoire/shared': 0.11.7
+      '@histoire/vendors': 0.11.7
       '@types/flexsearch': 0.7.3
       '@types/markdown-it': 12.2.3
       birpc: 0.1.1
@@ -4370,12 +4341,10 @@ packages:
       sirv: 2.0.2
       tinypool: 0.1.3
       vite-node: 0.23.4_sass@1.56.1
-      vite-plugin-inspect: 0.7.7
     transitivePeerDependencies:
       - '@types/node'
       - encoding
       - less
-      - rollup
       - sass
       - stylus
       - sugarss
@@ -5134,10 +5103,6 @@ packages:
       vary: 1.1.2
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /kolorist/1.6.0:
-    resolution: {integrity: sha512-dLkz37Ab97HWMx9KTes3Tbi3D1ln9fCAy2zr2YVExJasDRPGRaKcoE4fycWNtnCAJfjFqe0cnY+f8KT2JePEXQ==}
     dev: true
 
   /lazystream/1.0.1:
@@ -8506,23 +8471,6 @@ packages:
       vscode-languageserver: 7.0.0
       vscode-languageserver-textdocument: 1.0.7
       vscode-uri: 3.0.6
-    dev: true
-
-  /vite-plugin-inspect/0.7.7:
-    resolution: {integrity: sha512-2IlnshZuv0RHtUwMBNR8cW//VDLVKfBOG+JY9qqeL2TaNdet5m+Rw/Zxp63vtcX5FNhWO1fYCK1ENRv6PCOevg==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      vite: ^3.1.0
-    dependencies:
-      '@rollup/pluginutils': 5.0.2
-      debug: 4.3.4
-      fs-extra: 10.1.0
-      kolorist: 1.6.0
-      sirv: 2.0.2
-      ufo: 0.8.6
-    transitivePeerDependencies:
-      - rollup
-      - supports-color
     dev: true
 
   /vite/3.2.3_hjvfwt65jej5xdeniajry2gnom:
