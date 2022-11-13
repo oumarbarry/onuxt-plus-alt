@@ -45,7 +45,7 @@
     "husky": "8.0.2",
     "is-ci": "3.0.1",
     "lint-staged": "13.0.3",
-    "msw": "0.48.1",
+    "msw": "0.48.2",
     "nuxt": "3.0.0-rc.13",
     "nuxt-icon": "0.1.7",
     "postcss-html": "1.5.0",
