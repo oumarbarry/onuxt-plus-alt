@@ -24,7 +24,7 @@ specifiers:
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.0.3
-  msw: 0.48.2
+  msw: 0.48.3
   nuxt: 3.0.0-rc.13
   nuxt-icon: 0.1.7
   postcss-html: 1.5.0
@@ -66,7 +66,7 @@ devDependencies:
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.0.3
-  msw: 0.48.2_typescript@4.9.3
+  msw: 0.48.3_typescript@4.9.3
   nuxt: 3.0.0-rc.13_gm5c2zoibozvhuo7w6sksyhknu
   nuxt-icon: 0.1.7
   postcss-html: 1.5.0
@@ -5687,8 +5687,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw/0.48.2_typescript@4.9.3:
-    resolution: {integrity: sha512-kXeLiyf5CRYkRf+ve/Utmw5/Iii+y+Mcr8hzXSVFrvzWVDpBfYL/4vBEhQu4zrBPBhvPbTNrH7/Y0KDQilpBKg==}
+  /msw/0.48.3_typescript@4.9.3:
+    resolution: {integrity: sha512-8ENBcX7JVWPA5v9WTeOnCWCMOVtyBiXZyD/0+AKlhOysJRB1ZdBAcMGLIiQ2/VpQ2lC0Yd7SFKg9aviAQSVeaw==}
     engines: {node: '>=14'}
     hasBin: true
     requiresBuild: true
@@ -5714,7 +5714,6 @@ packages:
       node-fetch: 2.6.7
       outvariant: 1.3.0
       path-to-regexp: 6.2.1
-      statuses: 2.0.1
       strict-event-emitter: 0.2.8
       type-fest: 2.19.0
       typescript: 4.9.3
