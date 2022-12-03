@@ -20,7 +20,7 @@ specifiers:
   eslint-plugin-vue: 9.8.0
   eslint-plugin-yml: 1.2.0
   happy-dom: 7.7.2
-  histoire: 0.11.8
+  histoire: 0.11.9
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.0.4
@@ -45,8 +45,8 @@ dependencies:
   '@pinia/nuxt': 0.4.6_typescript@4.9.3
 
 devDependencies:
-  '@histoire/plugin-nuxt': 0.11.9_vdkfimsg6ydclb7duwl66bdazi
-  '@histoire/plugin-vue': 0.11.9_histoire@0.11.8
+  '@histoire/plugin-nuxt': 0.11.9_a6hlsqzr52eqtr3qrkbxlkyv2q
+  '@histoire/plugin-vue': 0.11.9_histoire@0.11.9
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
   '@nuxtjs/google-fonts': 3.0.0-1
   '@nuxtjs/tailwindcss': 6.1.3
@@ -62,7 +62,7 @@ devDependencies:
   eslint-plugin-vue: 9.8.0_eslint@8.29.0
   eslint-plugin-yml: 1.2.0_eslint@8.29.0
   happy-dom: 7.7.2
-  histoire: 0.11.8_sass@1.56.1
+  histoire: 0.11.9_sass@1.56.1
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.0.4
@@ -521,23 +521,23 @@ packages:
       '@histoire/vendors': 0.11.9
     dev: true
 
-  /@histoire/plugin-nuxt/0.11.9_vdkfimsg6ydclb7duwl66bdazi:
+  /@histoire/plugin-nuxt/0.11.9_a6hlsqzr52eqtr3qrkbxlkyv2q:
     resolution: {integrity: sha512-MFiCMXc0I9S5y0Rx0WvitKhMI/gMz3WXmpuu8uvvpcqxettBolo7fI6nqEr8Oy8O8iIaz4c1i+uHgKljyWKL+g==}
     peerDependencies:
       '@histoire/plugin-vue': ^0.11.9
       histoire: ^0.11.9
       nuxt: ^3.0.0-rc.11
     dependencies:
-      '@histoire/plugin-vue': 0.11.9_histoire@0.11.8
+      '@histoire/plugin-vue': 0.11.9_histoire@0.11.9
       '@nuxt/kit': 3.0.0
-      histoire: 0.11.8_sass@1.56.1
+      histoire: 0.11.9_sass@1.56.1
       nuxt: 3.0.0_mct7hhkthiw66yekj6wthfoycq
     transitivePeerDependencies:
       - rollup
       - supports-color
     dev: true
 
-  /@histoire/plugin-vue/0.11.9_histoire@0.11.8:
+  /@histoire/plugin-vue/0.11.9_histoire@0.11.9:
     resolution: {integrity: sha512-7+872zuGg0iR8hhzgJnleMBVM5u2cnegsiBFljN/AAxCGtHpQbZTTOtl9dvsNxNDJUMbScnQsQTNw35KlNpmJA==}
     peerDependencies:
       histoire: ^0.11.9
@@ -546,7 +546,7 @@ packages:
       '@histoire/controls': 0.11.9
       '@histoire/shared': 0.11.9
       '@histoire/vendors': 0.11.9
-      histoire: 0.11.8_sass@1.56.1
+      histoire: 0.11.9_sass@1.56.1
     transitivePeerDependencies:
       - vite
     dev: true
@@ -4463,8 +4463,8 @@ packages:
     resolution: {integrity: sha512-AVwgTAzeGpF7kwUCMc9HbAoCKFcHGEfmWkaI8g0jprrkh9VPRaofIsfV7Lw8UuR9pi4Rk7IIjJce8l0C+jSJNA==}
     dev: true
 
-  /histoire/0.11.8_sass@1.56.1:
-    resolution: {integrity: sha512-oD3a6ihBa8lw4+xbIhhjMHZWgGltPLmyztL9EGcHUCUOBfa2a3hUsZWe1Ovhc+E74dp0wZJnvGwdhyk/6bInYw==}
+  /histoire/0.11.9_sass@1.56.1:
+    resolution: {integrity: sha512-sN4XAA3KIMXY4dUtQM9lytXSIkAW0shXfoyVuKBe3eBSW+TsZdp435yNc64E1YsD24HTZH3+elAI8Xkcaq3X+A==}
     hasBin: true
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0
@@ -4496,7 +4496,7 @@ packages:
       pathe: 0.2.0
       picocolors: 1.0.0
       sade: 1.8.1
-      shiki: 0.10.1
+      shiki: 0.11.1
       sirv: 2.0.2
       tinypool: 0.1.3
       vite-node: 0.23.4_sass@1.56.1
@@ -7701,12 +7701,12 @@ packages:
     resolution: {integrity: sha512-eqtfk8idlYlSLAn0gp0Ly2+FbKc2d78IddigHSS4iHAnpXoY2kdRzyFGZOdi6TvemYMnRhZBi1HsSqZc5eNKqg==}
     dev: true
 
-  /shiki/0.10.1:
-    resolution: {integrity: sha512-VsY7QJVzU51j5o1+DguUd+6vmCmZ5v/6gYu4vyYAhzjuNQU6P/vmSy4uQaOhvje031qQMiW0d2BwgMH52vqMng==}
+  /shiki/0.11.1:
+    resolution: {integrity: sha512-EugY9VASFuDqOexOgXR18ZV+TbFrQHeCpEYaXamO+SZlsnT/2LxuLBX25GGtIrwaEVFXUAbUQ601SWE2rMwWHA==}
     dependencies:
       jsonc-parser: 3.2.0
       vscode-oniguruma: 1.6.2
-      vscode-textmate: 5.2.0
+      vscode-textmate: 6.0.0
     dev: true
 
   /side-channel/1.0.4:
@@ -9090,8 +9090,8 @@ packages:
     resolution: {integrity: sha512-KH8+KKov5eS/9WhofZR8M8dMHWN2gTxjMsG4jd04YhpbPR91fUj7rYQ2/XjeHCJWbg7X++ApRIU9NUwM2vTvLA==}
     dev: true
 
-  /vscode-textmate/5.2.0:
-    resolution: {integrity: sha512-Uw5ooOQxRASHgu6C7GVvUxisKXfSgW4oFlO+aa+PAkgmH89O3CXxEEzNRNtHSqtXFTl0nAC1uYj0GMSH27uwtQ==}
+  /vscode-textmate/6.0.0:
+    resolution: {integrity: sha512-gu73tuZfJgu+mvCSy4UZwd2JXykjK9zAZsfmDeut5dx/1a7FeTk0XwJsSuqQn+cuMCGVbIBfl+s53X4T19DnzQ==}
     dev: true
 
   /vscode-uri/3.0.6:
