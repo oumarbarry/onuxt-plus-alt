@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@headlessui/vue': 1.7.4
   '@histoire/plugin-nuxt': 0.11.9
-  '@histoire/plugin-vue': 0.11.7
+  '@histoire/plugin-vue': 0.11.9
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
   '@nuxtjs/google-fonts': 3.0.0-1
   '@nuxtjs/tailwindcss': 6.1.3
@@ -45,8 +45,8 @@ dependencies:
   '@pinia/nuxt': 0.4.6_typescript@4.9.3
 
 devDependencies:
-  '@histoire/plugin-nuxt': 0.11.9_z3oyzquep6rpljjpqvumlasa7m
-  '@histoire/plugin-vue': 0.11.7_histoire@0.11.8
+  '@histoire/plugin-nuxt': 0.11.9_vdkfimsg6ydclb7duwl66bdazi
+  '@histoire/plugin-vue': 0.11.9_histoire@0.11.8
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
   '@nuxtjs/google-fonts': 3.0.0-1
   '@nuxtjs/tailwindcss': 6.1.3
@@ -508,19 +508,6 @@ packages:
       - vite
     dev: true
 
-  /@histoire/controls/0.11.7:
-    resolution: {integrity: sha512-SSJhmo3uhmy8rNMyQxHTItAxfJMl3PVgK+MY7eQEp6v/nf6VnJFvv6LkW+lQouvjFMV69jN1RZcgoGzPC5DOuw==}
-    dependencies:
-      '@codemirror/commands': 6.1.2
-      '@codemirror/lang-json': 6.0.1
-      '@codemirror/language': 6.3.0
-      '@codemirror/lint': 6.0.0
-      '@codemirror/state': 6.1.2
-      '@codemirror/theme-one-dark': 6.1.0
-      '@codemirror/view': 6.4.1
-      '@histoire/vendors': 0.11.7
-    dev: true
-
   /@histoire/controls/0.11.9:
     resolution: {integrity: sha512-CnUW7DfC5TLy7zKUqYKiDKqef7ookbAtTN4lPPtR2JvFpF6DOhfpwOcrRxePentxzB6jpnEBP7wCUci+0kR3eQ==}
     dependencies:
@@ -534,14 +521,14 @@ packages:
       '@histoire/vendors': 0.11.9
     dev: true
 
-  /@histoire/plugin-nuxt/0.11.9_z3oyzquep6rpljjpqvumlasa7m:
+  /@histoire/plugin-nuxt/0.11.9_vdkfimsg6ydclb7duwl66bdazi:
     resolution: {integrity: sha512-MFiCMXc0I9S5y0Rx0WvitKhMI/gMz3WXmpuu8uvvpcqxettBolo7fI6nqEr8Oy8O8iIaz4c1i+uHgKljyWKL+g==}
     peerDependencies:
       '@histoire/plugin-vue': ^0.11.9
       histoire: ^0.11.9
       nuxt: ^3.0.0-rc.11
     dependencies:
-      '@histoire/plugin-vue': 0.11.7_histoire@0.11.8
+      '@histoire/plugin-vue': 0.11.9_histoire@0.11.8
       '@nuxt/kit': 3.0.0
       histoire: 0.11.8_sass@1.56.1
       nuxt: 3.0.0_mct7hhkthiw66yekj6wthfoycq
@@ -550,30 +537,18 @@ packages:
       - supports-color
     dev: true
 
-  /@histoire/plugin-vue/0.11.7_histoire@0.11.8:
-    resolution: {integrity: sha512-wtfBlRbqSuw5elTcjDtL/BbBuZcVC/Gr7XcUNopRe/3+aBaC7LFyaBetR3T7JuO8W2AiXcPSrMBHrZ97K7v55A==}
+  /@histoire/plugin-vue/0.11.9_histoire@0.11.8:
+    resolution: {integrity: sha512-7+872zuGg0iR8hhzgJnleMBVM5u2cnegsiBFljN/AAxCGtHpQbZTTOtl9dvsNxNDJUMbScnQsQTNw35KlNpmJA==}
     peerDependencies:
-      histoire: ^0.11.7
+      histoire: ^0.11.9
       vue: ^3.2.31
     dependencies:
-      '@histoire/controls': 0.11.7
-      '@histoire/shared': 0.11.7
-      '@histoire/vendors': 0.11.7
+      '@histoire/controls': 0.11.9
+      '@histoire/shared': 0.11.9
+      '@histoire/vendors': 0.11.9
       histoire: 0.11.8_sass@1.56.1
     transitivePeerDependencies:
       - vite
-    dev: true
-
-  /@histoire/shared/0.11.7:
-    resolution: {integrity: sha512-OXk7LE/oD5U09tXRFpphm0qWIYbe037efEKyqhOi5JnPG6KZaS6zW2OdTegX1Q46E/ycJHJUWItj2pjZRrERRQ==}
-    peerDependencies:
-      vite: ^2.9.0 || ^3.0.0
-    dependencies:
-      '@types/fs-extra': 9.0.13
-      '@types/markdown-it': 12.2.3
-      chokidar: 3.5.3
-      pathe: 0.2.0
-      picocolors: 1.0.0
     dev: true
 
   /@histoire/shared/0.11.9:
@@ -586,10 +561,6 @@ packages:
       chokidar: 3.5.3
       pathe: 0.2.0
       picocolors: 1.0.0
-    dev: true
-
-  /@histoire/vendors/0.11.7:
-    resolution: {integrity: sha512-PsA8lNQoArIXLP5d+4FUhnRTtThLK7mat7agdHZDSoZKj2bCeX3KHi/nFVvvyd32TcbwFSJqrKgacjJlgAcQ6A==}
     dev: true
 
   /@histoire/vendors/0.11.9:
@@ -868,10 +839,10 @@ packages:
       '@nuxt/schema': 3.0.0-rc.13
       c12: 0.2.13
       consola: 2.15.3
-      defu: 6.1.0
+      defu: 6.1.1
       globby: 13.1.2
       hash-sum: 2.0.0
-      ignore: 5.2.0
+      ignore: 5.2.1
       jiti: 1.16.0
       knitwork: 0.1.2
       lodash.template: 4.5.0
@@ -880,7 +851,7 @@ packages:
       pkg-types: 0.3.6
       scule: 0.3.2
       semver: 7.3.8
-      unctx: 2.0.2
+      unctx: 2.1.0
       unimport: 0.7.0
       untyped: 0.5.0
     transitivePeerDependencies:
@@ -8606,15 +8577,6 @@ packages:
       has-bigints: 1.0.2
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
-    dev: true
-
-  /unctx/2.0.2:
-    resolution: {integrity: sha512-3lcXTlDoOaguRVC1GqG3mrawy17yoycSAQDDnUayQYZ17v9to+Gn6Zyssroc/GD2ppJ0wF5V8adOcKkrNKVWow==}
-    dependencies:
-      acorn: 8.8.1
-      estree-walker: 3.0.1
-      magic-string: 0.26.7
-      unplugin: 0.9.6
     dev: true
 
   /unctx/2.1.0:
