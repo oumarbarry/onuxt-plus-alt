@@ -11,7 +11,7 @@ specifiers:
   '@testing-library/vue': 6.6.1
   '@typescript-eslint/eslint-plugin': 5.45.1
   '@typescript-eslint/parser': 5.45.1
-  '@vitest/coverage-c8': 0.25.3
+  '@vitest/coverage-c8': 0.25.4
   '@vueuse/core': 9.6.0
   '@vueuse/nuxt': 9.6.0
   eslint: 8.29.0
@@ -37,7 +37,7 @@ specifiers:
   stylelint-config-standard-scss: 6.1.0
   stylelint-config-standard-vue: 1.0.0
   typescript: 4.9.3
-  vitest: 0.25.3
+  vitest: 0.25.4
   vue-tsc: 1.0.11
 
 dependencies:
@@ -53,7 +53,7 @@ devDependencies:
   '@testing-library/vue': 6.6.1
   '@typescript-eslint/eslint-plugin': 5.45.1_tdm6ms4ntwhlpozn7kjqrhum74
   '@typescript-eslint/parser': 5.45.1_s5ps7njkmjlaqajutnox5ntcla
-  '@vitest/coverage-c8': 0.25.3_4p2q4kownwn34nmyur4w4cbbre
+  '@vitest/coverage-c8': 0.25.4_4p2q4kownwn34nmyur4w4cbbre
   '@vueuse/core': 9.6.0
   '@vueuse/nuxt': 9.6.0_nuxt@3.0.0
   eslint: 8.29.0
@@ -79,7 +79,7 @@ devDependencies:
   stylelint-config-standard-scss: 6.1.0_stylelint@14.16.0
   stylelint-config-standard-vue: 1.0.0_bto6pmslw3cibsiuq6smxboytq
   typescript: 4.9.3
-  vitest: 0.25.3_4p2q4kownwn34nmyur4w4cbbre
+  vitest: 0.25.4_4p2q4kownwn34nmyur4w4cbbre
   vue-tsc: 1.0.11_typescript@4.9.3
 
 packages:
@@ -1661,11 +1661,11 @@ packages:
       vue: 3.2.45
     dev: true
 
-  /@vitest/coverage-c8/0.25.3_4p2q4kownwn34nmyur4w4cbbre:
-    resolution: {integrity: sha512-+tmrB3E7pZTSM+aWKzLk0FpyyaQOoRQf0594hHp+E3Kk0tiFONiEFYf7+9a1Z+C2ffU/0w6KvyBjpNPdashMrg==}
+  /@vitest/coverage-c8/0.25.4_4p2q4kownwn34nmyur4w4cbbre:
+    resolution: {integrity: sha512-3ozqZUr3x8woBCBXJRzt1P8DRGKsIxajfzRu3ySKJE0bCkIl2hofzHYzkHBZafhfhMOt+hR6L395Io7gyMmpUQ==}
     dependencies:
       c8: 7.12.0
-      vitest: 0.25.3_4p2q4kownwn34nmyur4w4cbbre
+      vitest: 0.25.4_4p2q4kownwn34nmyur4w4cbbre
     transitivePeerDependencies:
       - '@edge-runtime/vm'
       - '@vitest/browser'
@@ -9004,8 +9004,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.25.3_4p2q4kownwn34nmyur4w4cbbre:
-    resolution: {integrity: sha512-/UzHfXIKsELZhL7OaM2xFlRF8HRZgAHtPctacvNK8H4vOcbJJAMEgbWNGSAK7Y9b1NBe5SeM7VTuz2RsTHFJJA==}
+  /vitest/0.25.4_4p2q4kownwn34nmyur4w4cbbre:
+    resolution: {integrity: sha512-v/qoSEYPrf8qa1CbKIKYK+1GGmPPEJyXFbkuD6jhh080cfNBsuUDAdMu6hV2h9Uv34EMiUrVETL/wB+EHxFtbA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -9036,7 +9036,7 @@ packages:
       happy-dom: 7.7.2
       local-pkg: 0.4.2
       source-map: 0.6.1
-      strip-literal: 0.4.2
+      strip-literal: 1.0.0
       tinybench: 2.3.1
       tinypool: 0.3.0
       tinyspy: 1.0.2
