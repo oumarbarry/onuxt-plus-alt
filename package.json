@@ -20,7 +20,7 @@
     "format": "prettier -uw --cache ."
   },
   "dependencies": {
-    "@headlessui/vue": "1.7.5",
+    "@headlessui/vue": "1.7.6",
     "@pinia/nuxt": "0.4.6"
   },
   "devDependencies": {
