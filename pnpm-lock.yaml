@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@headlessui/vue': 1.7.7
   '@histoire/plugin-nuxt': 0.12.0
-  '@histoire/plugin-vue': 0.11.9
+  '@histoire/plugin-vue': 0.12.0
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
   '@nuxtjs/google-fonts': 3.0.0-1
   '@nuxtjs/tailwindcss': 6.2.0
@@ -45,8 +45,8 @@ dependencies:
   '@pinia/nuxt': 0.4.6_typescript@4.9.4
 
 devDependencies:
-  '@histoire/plugin-nuxt': 0.12.0_a6hlsqzr52eqtr3qrkbxlkyv2q
-  '@histoire/plugin-vue': 0.11.9_histoire@0.11.9
+  '@histoire/plugin-nuxt': 0.12.0_7osbeh3uhsn54zll3n5twbjrpq
+  '@histoire/plugin-vue': 0.12.0_histoire@0.11.9
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
   '@nuxtjs/google-fonts': 3.0.0-1
   '@nuxtjs/tailwindcss': 6.2.0
@@ -510,14 +510,27 @@ packages:
       '@histoire/vendors': 0.11.9
     dev: true
 
-  /@histoire/plugin-nuxt/0.12.0_a6hlsqzr52eqtr3qrkbxlkyv2q:
+  /@histoire/controls/0.12.0:
+    resolution: {integrity: sha512-lxtjPjbQBJx/pmXkqp3dBRZHuPaGpRMzAAs69iZ4ZjEJj3aqK8RD6Jjf20Vcd6RwVbXo81GOPua9P/7HodVHkw==}
+    dependencies:
+      '@codemirror/commands': 6.1.2
+      '@codemirror/lang-json': 6.0.1
+      '@codemirror/language': 6.3.0
+      '@codemirror/lint': 6.0.0
+      '@codemirror/state': 6.1.2
+      '@codemirror/theme-one-dark': 6.1.0
+      '@codemirror/view': 6.4.1
+      '@histoire/vendors': 0.12.0
+    dev: true
+
+  /@histoire/plugin-nuxt/0.12.0_7osbeh3uhsn54zll3n5twbjrpq:
     resolution: {integrity: sha512-MJNPonfvNOpir//yq+JUmWhxND2mMRce181ymsVWBbfD3xJdGRvFg8wtq45/K1FuuvDrW6EX+m7u6PpdEDu7MA==}
     peerDependencies:
       '@histoire/plugin-vue': ^0.12.0
       histoire: ^0.12.0
       nuxt: ^3.0.0-rc.11
     dependencies:
-      '@histoire/plugin-vue': 0.11.9_histoire@0.11.9
+      '@histoire/plugin-vue': 0.12.0_histoire@0.11.9
       '@nuxt/kit': 3.0.0
       histoire: 0.11.9_sass@1.57.1
       nuxt: 3.0.0_pwpk577hwtuwgvziewj6f5zxl4
@@ -526,15 +539,15 @@ packages:
       - supports-color
     dev: true
 
-  /@histoire/plugin-vue/0.11.9_histoire@0.11.9:
-    resolution: {integrity: sha512-7+872zuGg0iR8hhzgJnleMBVM5u2cnegsiBFljN/AAxCGtHpQbZTTOtl9dvsNxNDJUMbScnQsQTNw35KlNpmJA==}
+  /@histoire/plugin-vue/0.12.0_histoire@0.11.9:
+    resolution: {integrity: sha512-9BuknkxDS6s5gM4wjs9SjnglfctDSBuIes9sExKwFwaCICn/aEbqtDbGKLmPKGRDKCr2276C5F3CfsJSLZYuIA==}
     peerDependencies:
-      histoire: ^0.11.9
+      histoire: ^0.12.0
       vue: ^3.2.31
     dependencies:
-      '@histoire/controls': 0.11.9
-      '@histoire/shared': 0.11.9
-      '@histoire/vendors': 0.11.9
+      '@histoire/controls': 0.12.0
+      '@histoire/shared': 0.12.0
+      '@histoire/vendors': 0.12.0
       histoire: 0.11.9_sass@1.57.1
     transitivePeerDependencies:
       - vite
@@ -552,8 +565,24 @@ packages:
       picocolors: 1.0.0
     dev: true
 
+  /@histoire/shared/0.12.0:
+    resolution: {integrity: sha512-UzHDXBurNkD9OMXp3r0OcTHZNRQ6vDXBoXLvNnt06ymphtVJc1wSlf4tLurnmlPJhA+pZpf8NpBxihaiPKPuig==}
+    peerDependencies:
+      vite: ^2.9.0 || ^3.0.0 || ^4.0.0
+    dependencies:
+      '@types/fs-extra': 9.0.13
+      '@types/markdown-it': 12.2.3
+      chokidar: 3.5.3
+      pathe: 0.2.0
+      picocolors: 1.0.0
+    dev: true
+
   /@histoire/vendors/0.11.9:
     resolution: {integrity: sha512-PnlPB1dAgLRcA+dSGPB/27zewREHCmO4nUCOQWu7rFNMO1wfB2EOn53hxkkBgzej3toa1u1knIRpHzQRSaUSUw==}
+    dev: true
+
+  /@histoire/vendors/0.12.0:
+    resolution: {integrity: sha512-q/l2RRQZHJJg+tNXFGa44zYJJM69hWULHB1f86vj3YHK4d/IZ7XBf1tdyYEzHhLTKgo1A5+o92dOiZ1ej1mt+g==}
     dev: true
 
   /@humanwhocodes/config-array/0.11.8:
