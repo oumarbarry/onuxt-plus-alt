@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@headlessui/vue': 1.7.7
   '@histoire/plugin-nuxt': 0.12.4
-  '@histoire/plugin-vue': 0.12.2
+  '@histoire/plugin-vue': 0.12.4
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
   '@nuxtjs/google-fonts': 3.0.0-1
   '@nuxtjs/tailwindcss': 6.2.0
@@ -45,8 +45,8 @@ dependencies:
   '@pinia/nuxt': 0.4.6_typescript@4.9.4
 
 devDependencies:
-  '@histoire/plugin-nuxt': 0.12.4_ez3vhyjul4jtud77neyapjqtqy
-  '@histoire/plugin-vue': 0.12.2_histoire@0.12.2
+  '@histoire/plugin-nuxt': 0.12.4_jzfwjllvbiq3hz6arfw6pbsmba
+  '@histoire/plugin-vue': 0.12.4_histoire@0.12.2
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
   '@nuxtjs/google-fonts': 3.0.0-1
   '@nuxtjs/tailwindcss': 6.2.0
@@ -487,9 +487,9 @@ packages:
   /@histoire/app/0.12.2:
     resolution: {integrity: sha512-sO38kqalSbgx8mf+cKbGGhhXjhcZdNMPYpYKvYh1lxTNebaeI+w6Kv1adCa0vFAtQiI9oiPc4I5jApWOrvqcDg==}
     dependencies:
-      '@histoire/controls': 0.12.2
-      '@histoire/shared': 0.12.2
-      '@histoire/vendors': 0.12.2
+      '@histoire/controls': 0.12.4
+      '@histoire/shared': 0.12.4
+      '@histoire/vendors': 0.12.4
       '@types/flexsearch': 0.7.3
       flexsearch: 0.7.21
       shiki-es: 0.1.2
@@ -507,17 +507,30 @@ packages:
       '@codemirror/state': 6.1.2
       '@codemirror/theme-one-dark': 6.1.0
       '@codemirror/view': 6.4.1
-      '@histoire/vendors': 0.12.2
+      '@histoire/vendors': 0.12.4
     dev: true
 
-  /@histoire/plugin-nuxt/0.12.4_ez3vhyjul4jtud77neyapjqtqy:
+  /@histoire/controls/0.12.4:
+    resolution: {integrity: sha512-p4qa11vXqhSMsnXW1p+n7ZqawoHVErLFL24yNnA9peMuXnR306/0cvdAnsLMQJdq5mDNayOY5Di69YKVQ0Shqg==}
+    dependencies:
+      '@codemirror/commands': 6.1.2
+      '@codemirror/lang-json': 6.0.1
+      '@codemirror/language': 6.3.0
+      '@codemirror/lint': 6.0.0
+      '@codemirror/state': 6.1.2
+      '@codemirror/theme-one-dark': 6.1.0
+      '@codemirror/view': 6.4.1
+      '@histoire/vendors': 0.12.4
+    dev: true
+
+  /@histoire/plugin-nuxt/0.12.4_jzfwjllvbiq3hz6arfw6pbsmba:
     resolution: {integrity: sha512-4RCA/UzePlKKeoWPOKJM5Vf9B7JN0uDETwFpumX/j12qRC1aBZWdmDjNpXG4+PN1gV6NDUlXr/ssvts9gOVFZg==}
     peerDependencies:
       '@histoire/plugin-vue': ^0.12.4
       histoire: ^0.12.4
       nuxt: ^3.0.0-rc.11
     dependencies:
-      '@histoire/plugin-vue': 0.12.2_histoire@0.12.2
+      '@histoire/plugin-vue': 0.12.4_histoire@0.12.2
       '@nuxt/kit': 3.0.0
       histoire: 0.12.2_sass@1.57.1
       nuxt: 3.0.0_pwpk577hwtuwgvziewj6f5zxl4
@@ -526,15 +539,15 @@ packages:
       - supports-color
     dev: true
 
-  /@histoire/plugin-vue/0.12.2_histoire@0.12.2:
-    resolution: {integrity: sha512-J9V3kyI5ussvmV8XxIij2mnjCVE7+t7mDTYcdaIELATGx64rRMScC28Cto3cRyBZ+WU6PwfyaUZuh3bugqa1Pw==}
+  /@histoire/plugin-vue/0.12.4_histoire@0.12.2:
+    resolution: {integrity: sha512-2xgBDwEHmiY053hPWy4rKnnMjntVcg8qfIYJGyITwFWSfNTq+6ez/HjWzUcHT6qwFMglUHq+rDlQb9gYZF+Edw==}
     peerDependencies:
-      histoire: ^0.12.2
+      histoire: ^0.12.4
       vue: ^3.2.31
     dependencies:
-      '@histoire/controls': 0.12.2
-      '@histoire/shared': 0.12.2
-      '@histoire/vendors': 0.12.2
+      '@histoire/controls': 0.12.4
+      '@histoire/shared': 0.12.4
+      '@histoire/vendors': 0.12.4
       histoire: 0.12.2_sass@1.57.1
     transitivePeerDependencies:
       - vite
@@ -552,8 +565,24 @@ packages:
       picocolors: 1.0.0
     dev: true
 
+  /@histoire/shared/0.12.4:
+    resolution: {integrity: sha512-dVSrfsEu17KczjyHVW8yPvSlguhEV7hWjDSwsjlUrRdbe7hwztX4GbbcCIWvG5hy5gASpKpQq6FJa5uTs0HOsg==}
+    peerDependencies:
+      vite: ^2.9.0 || ^3.0.0 || ^4.0.0
+    dependencies:
+      '@types/fs-extra': 9.0.13
+      '@types/markdown-it': 12.2.3
+      chokidar: 3.5.3
+      pathe: 0.2.0
+      picocolors: 1.0.0
+    dev: true
+
   /@histoire/vendors/0.12.2:
     resolution: {integrity: sha512-/Wc8ZFObelont3NXQLr13m7DWFlg9lYHzQxGWcOVeSHmwYedEgb9QEvHMgQdD1/s/zitKhK0cWYxJnluZRbbdw==}
+    dev: true
+
+  /@histoire/vendors/0.12.4:
+    resolution: {integrity: sha512-NIi0krz19iSjPHhIsGLrW4Q3tvrCLfvCet2kFA8crKPX6inaMZm8g/+pDQBqlh9DRCXVbxV5RWQKcumrIFbrmw==}
     dev: true
 
   /@humanwhocodes/config-array/0.11.8:
