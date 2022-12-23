@@ -41,7 +41,7 @@
     "eslint-plugin-vue": "9.8.0",
     "eslint-plugin-yml": "1.3.0",
     "happy-dom": "8.1.1",
-    "histoire": "0.12.2",
+    "histoire": "0.12.4",
     "husky": "8.0.2",
     "is-ci": "3.0.1",
     "lint-staged": "13.1.0",
@@ -63,7 +63,7 @@
   },
   "peerDependencies": {
     "@histoire/plugin-vue": "0.12.4",
-    "histoire": "0.12.2"
+    "histoire": "0.12.4"
   },
   "lint-staged": {
     "*.{ts,vue,json,yaml,yml}": "eslint --fix --cache --cache-location ./node_modules/.cache/eslint/",
