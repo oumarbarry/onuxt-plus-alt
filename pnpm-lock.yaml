@@ -13,7 +13,7 @@ specifiers:
   '@typescript-eslint/parser': 5.47.0
   '@vitest/coverage-c8': 0.26.2
   '@vueuse/core': 9.9.0
-  '@vueuse/nuxt': 9.8.2
+  '@vueuse/nuxt': 9.9.0
   eslint: 8.30.0
   eslint-config-prettier: 8.5.0
   eslint-plugin-jsonc: 2.5.0
@@ -55,7 +55,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.47.0_lzzuuodtsqwxnvqeq4g4likcqa
   '@vitest/coverage-c8': 0.26.2_avv3sqdiddx5dua2lv64jjki64
   '@vueuse/core': 9.9.0
-  '@vueuse/nuxt': 9.8.2_nuxt@3.0.0
+  '@vueuse/nuxt': 9.9.0_nuxt@3.0.0
   eslint: 8.30.0
   eslint-config-prettier: 8.5.0_eslint@8.30.0
   eslint-plugin-jsonc: 2.5.0_eslint@8.30.0
@@ -1749,18 +1749,6 @@ packages:
       vue: ^3.0.1
     dev: true
 
-  /@vueuse/core/9.8.2:
-    resolution: {integrity: sha512-aWiCmcYIpPt7xjuqYiceODEMHchDYthrJ4AqI+FXPZrR23PZOqdiktbUVyQl2kGlR3H4i9UJ/uimQrwhz9UouQ==}
-    dependencies:
-      '@types/web-bluetooth': 0.0.16
-      '@vueuse/metadata': 9.8.2
-      '@vueuse/shared': 9.8.2
-      vue-demi: 0.13.11
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-      - vue
-    dev: true
-
   /@vueuse/core/9.9.0:
     resolution: {integrity: sha512-JdDb7TrE0imZnwBhMF4+0PCJqGD3AxzH8S2sfk54P0rqvklK+EAtAR/mPb1HwV/JPujQFQJhghQ190Yq03YpVw==}
     dependencies:
@@ -1785,22 +1773,18 @@ packages:
       vue: 3.2.45
     dev: true
 
-  /@vueuse/metadata/9.8.2:
-    resolution: {integrity: sha512-N4E/BKS+9VsUeD4WLVRU1J2kCOLh+iikBcMtipFcTyL204132vDYHs27zLAVabJYGnhC0dIVGdhg9pbOZiY2TQ==}
-    dev: true
-
   /@vueuse/metadata/9.9.0:
     resolution: {integrity: sha512-pgxsUJv/d7IjKpLeB6TthggEsaBwM3ffc5jPrr5TmxAm/fup0mGR5VTzrdA/PSx85tpb+CIvP92D+55qBNc8ag==}
     dev: true
 
-  /@vueuse/nuxt/9.8.2_nuxt@3.0.0:
-    resolution: {integrity: sha512-X0pUe/LNRTVNugewwagbzjKkAd/qC6mtkYIeTynTShSkS1RPl44gb6tH3YO1vU201DIhwGNpzM43JOt0FrFyvw==}
+  /@vueuse/nuxt/9.9.0_nuxt@3.0.0:
+    resolution: {integrity: sha512-bhvHsy3vM38WWRhFgyjbDP/tfn0AMP7z1KeaWt5+ysxGHZ1EHMsY4lcFbpcFlQ6K9TKMcYvzzcBSzYxlWanMnQ==}
     peerDependencies:
       nuxt: ^3.0.0
     dependencies:
       '@nuxt/kit': 3.0.0
-      '@vueuse/core': 9.8.2
-      '@vueuse/metadata': 9.8.2
+      '@vueuse/core': 9.9.0
+      '@vueuse/metadata': 9.9.0
       local-pkg: 0.4.2
       nuxt: 3.0.0_pwpk577hwtuwgvziewj6f5zxl4
       vue-demi: 0.13.11
@@ -1808,15 +1792,6 @@ packages:
       - '@vue/composition-api'
       - rollup
       - supports-color
-      - vue
-    dev: true
-
-  /@vueuse/shared/9.8.2:
-    resolution: {integrity: sha512-ACjrPQzowd5dnabNJt9EoGVobco9/ENiA5qP53vjiuxndlJYuc/UegwhXC7KdQbPX4F45a50+45K3g1wNqOzmA==}
-    dependencies:
-      vue-demi: 0.13.11
-    transitivePeerDependencies:
-      - '@vue/composition-api'
       - vue
     dev: true
 
