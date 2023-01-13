@@ -17,7 +17,7 @@ specifiers:
   eslint: 8.31.0
   eslint-config-prettier: 8.6.0
   eslint-plugin-jsonc: 2.6.0
-  eslint-plugin-vue: 9.8.0
+  eslint-plugin-vue: 9.9.0
   eslint-plugin-yml: 1.4.0
   happy-dom: 8.1.4
   histoire: 0.12.4
@@ -59,7 +59,7 @@ devDependencies:
   eslint: 8.31.0
   eslint-config-prettier: 8.6.0_eslint@8.31.0
   eslint-plugin-jsonc: 2.6.0_eslint@8.31.0
-  eslint-plugin-vue: 9.8.0_eslint@8.31.0
+  eslint-plugin-vue: 9.9.0_eslint@8.31.0
   eslint-plugin-yml: 1.4.0_eslint@8.31.0
   happy-dom: 8.1.4
   histoire: 0.12.4_sass@1.57.1
@@ -3545,8 +3545,8 @@ packages:
       natural-compare: 1.4.0
     dev: true
 
-  /eslint-plugin-vue/9.8.0_eslint@8.31.0:
-    resolution: {integrity: sha512-E/AXwcTzunyzM83C2QqDHxepMzvI2y6x+mmeYHbVDQlKFqmKYvRrhaVixEeeG27uI44p9oKDFiyCRw4XxgtfHA==}
+  /eslint-plugin-vue/9.9.0_eslint@8.31.0:
+    resolution: {integrity: sha512-YbubS7eK0J7DCf0U2LxvVP7LMfs6rC6UltihIgval3azO3gyDwEGVgsCMe1TmDiEkl6GdMKfRpaME6QxIYtzDQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
@@ -3555,7 +3555,7 @@ packages:
       eslint-utils: 3.0.0_eslint@8.31.0
       natural-compare: 1.4.0
       nth-check: 2.1.1
-      postcss-selector-parser: 6.0.10
+      postcss-selector-parser: 6.0.11
       semver: 7.3.8
       vue-eslint-parser: 9.1.0_eslint@8.31.0
       xml-name-validator: 4.0.0
@@ -6933,14 +6933,6 @@ packages:
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.3.3
-    dev: true
-
-  /postcss-selector-parser/6.0.10:
-    resolution: {integrity: sha512-IQ7TZdoaqbT+LCpShg46jnZVlhWD2w6iQYAcYXfHARZ7X1t/UGhhceQDs5X0cGqKvYlHNOuv7Oa1xmb0oQuA3w==}
-    engines: {node: '>=4'}
-    dependencies:
-      cssesc: 3.0.0
-      util-deprecate: 1.0.2
     dev: true
 
   /postcss-selector-parser/6.0.11:
