@@ -13,7 +13,7 @@ specifiers:
   '@typescript-eslint/parser': 5.48.2
   '@vitest/coverage-c8': 0.27.2
   '@vueuse/core': 9.11.0
-  '@vueuse/nuxt': 9.10.0
+  '@vueuse/nuxt': 9.11.0
   eslint: 8.32.0
   eslint-config-prettier: 8.6.0
   eslint-plugin-jsonc: 2.6.0
@@ -55,7 +55,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.48.2_7uibuqfxkfaozanbtbziikiqje
   '@vitest/coverage-c8': 0.27.2_q63o36drnil6fpatcuwdh4lch4
   '@vueuse/core': 9.11.0
-  '@vueuse/nuxt': 9.10.0_nuxt@3.0.0
+  '@vueuse/nuxt': 9.11.0_nuxt@3.0.0
   eslint: 8.32.0
   eslint-config-prettier: 8.6.0_eslint@8.32.0
   eslint-plugin-jsonc: 2.6.0_eslint@8.32.0
@@ -781,7 +781,7 @@ packages:
       globby: 13.1.2
       hash-sum: 2.0.0
       ignore: 5.2.1
-      jiti: 1.16.0
+      jiti: 1.16.2
       knitwork: 1.0.0
       lodash.template: 4.5.0
       mlly: 1.1.0
@@ -791,7 +791,7 @@ packages:
       semver: 7.3.8
       unctx: 2.1.0
       unimport: 1.0.1
-      untyped: 1.2.1
+      untyped: 1.2.2
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -833,7 +833,7 @@ packages:
       globby: 13.1.2
       hash-sum: 2.0.0
       ignore: 5.2.1
-      jiti: 1.16.0
+      jiti: 1.16.2
       knitwork: 1.0.0
       lodash.template: 4.5.0
       mlly: 1.1.0
@@ -843,7 +843,7 @@ packages:
       semver: 7.3.8
       unctx: 2.1.0
       unimport: 1.0.1_rollup@2.79.1
-      untyped: 1.2.1
+      untyped: 1.2.2
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -1749,18 +1749,6 @@ packages:
       vue: ^3.0.1
     dev: true
 
-  /@vueuse/core/9.10.0:
-    resolution: {integrity: sha512-CxMewME07qeuzuT/AOIQGv0EhhDoojniqU6pC3F8m5VC76L47UT18DcX88kWlP3I7d3qMJ4u/PD8iSRsy3bmNA==}
-    dependencies:
-      '@types/web-bluetooth': 0.0.16
-      '@vueuse/metadata': 9.10.0
-      '@vueuse/shared': 9.10.0
-      vue-demi: 0.13.11
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-      - vue
-    dev: true
-
   /@vueuse/core/9.11.0:
     resolution: {integrity: sha512-7yZJ8LNOssA8ZmeSjd4F+wbFBA4csiP4TiaXgruqg1H4PAtzSkv93PPwFLvQkSnfo3Bar+e+6QoRvWjhz7l2Xg==}
     dependencies:
@@ -1785,22 +1773,18 @@ packages:
       vue: 3.2.45
     dev: true
 
-  /@vueuse/metadata/9.10.0:
-    resolution: {integrity: sha512-G5VZhgTCapzU9rv0Iq2HBrVOSGzOKb+OE668NxhXNcTjUjwYxULkEhAw70FtRLMZc+hxcFAzDZlKYA0xcwNMuw==}
-    dev: true
-
   /@vueuse/metadata/9.11.0:
     resolution: {integrity: sha512-HhtG2SWkcfZBLbamHdvLn7jKOCFpw/ifXjVTd5ilFkj98WVUk/3UTQ03wF1XIkuhSO4+b45hD2lfG9/GdKCF7w==}
     dev: true
 
-  /@vueuse/nuxt/9.10.0_nuxt@3.0.0:
-    resolution: {integrity: sha512-Re63RiUzsEbYGGrES+2YY3Elqblu0XVIVogBJydLBgK4sINDbfnqX0MHDpBuV8MC2SZ/3ojQPMOaJdYIIidJeg==}
+  /@vueuse/nuxt/9.11.0_nuxt@3.0.0:
+    resolution: {integrity: sha512-gG6Zv85/2ra64elUa4jQGxOKL/rYfGxpJ90XYwOCGEfFaWGyU2PswO3dj8o0IFZHyv592LalAPBuQ/qIb+mfZw==}
     peerDependencies:
       nuxt: ^3.0.0
     dependencies:
       '@nuxt/kit': 3.0.0
-      '@vueuse/core': 9.10.0
-      '@vueuse/metadata': 9.10.0
+      '@vueuse/core': 9.11.0
+      '@vueuse/metadata': 9.11.0
       local-pkg: 0.4.2
       nuxt: 3.0.0_pf4g2kkdikrpwfqj4iczuvdwje
       vue-demi: 0.13.11
@@ -1808,15 +1792,6 @@ packages:
       - '@vue/composition-api'
       - rollup
       - supports-color
-      - vue
-    dev: true
-
-  /@vueuse/shared/9.10.0:
-    resolution: {integrity: sha512-vakHJ2ZRklAzqmcVBL38RS7BxdBA4+5poG9NsSyqJxrt9kz0zX3P5CXMy0Hm6LFbZXUgvKdqAS3pUH1zX/5qTQ==}
-    dependencies:
-      vue-demi: 0.13.11
-    transitivePeerDependencies:
-      - '@vue/composition-api'
       - vue
     dev: true
 
@@ -5012,6 +4987,7 @@ packages:
   /jiti/1.16.0:
     resolution: {integrity: sha512-L3BJStEf5NAqNuzrpfbN71dp43mYIcBUlCRea/vdyv5dW/AYa1d4bpelko4SHdY3I6eN9Wzyasxirj1/vv5kmg==}
     hasBin: true
+    dev: true
 
   /jiti/1.16.2:
     resolution: {integrity: sha512-OKBOVWmU3FxDt/UH4zSwiKPuc1nihFZiOD722FuJlngvLz2glX1v2/TJIgoA4+mrpnXxHV6dSAoCvPcYQtoG5A==}
@@ -8592,16 +8568,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
-
-  /untyped/1.2.1:
-    resolution: {integrity: sha512-hEtBC6MvqXLEEpx5ItPhnpgHIf3hRP310IYHj7N3D5zjdLJnmJNsGRDFbovk6DM2dekF/OBWuxDr0b6479eUkA==}
-    dependencies:
-      '@babel/core': 7.20.12
-      '@babel/standalone': 7.20.12
-      '@babel/types': 7.20.7
-      scule: 1.0.0
-    transitivePeerDependencies:
-      - supports-color
 
   /untyped/1.2.2:
     resolution: {integrity: sha512-EANYd5L6AdpgfldlgMcmvOOnj092nWhy0ybhc7uhEH12ipytDYz89EOegBQKj8qWL3u1wgYnmFjADhsuCJs5Aw==}
