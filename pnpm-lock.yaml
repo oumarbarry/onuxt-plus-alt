@@ -19,7 +19,7 @@ specifiers:
   eslint-plugin-jsonc: 2.6.0
   eslint-plugin-vue: 9.9.0
   eslint-plugin-yml: 1.4.0
-  happy-dom: 8.1.4
+  happy-dom: 8.1.5
   histoire: 0.12.4
   husky: 8.0.3
   is-ci: 3.0.1
@@ -53,7 +53,7 @@ devDependencies:
   '@testing-library/vue': 6.6.1
   '@typescript-eslint/eslint-plugin': 5.48.2_caon6io6stgpr7lz2rtbhekxqy
   '@typescript-eslint/parser': 5.48.2_7uibuqfxkfaozanbtbziikiqje
-  '@vitest/coverage-c8': 0.27.2_q63o36drnil6fpatcuwdh4lch4
+  '@vitest/coverage-c8': 0.27.2_rq5ttxgt66zo4jxxteupto5gje
   '@vueuse/core': 9.11.0
   '@vueuse/nuxt': 9.11.0_nuxt@3.0.0
   eslint: 8.32.0
@@ -61,7 +61,7 @@ devDependencies:
   eslint-plugin-jsonc: 2.6.0_eslint@8.32.0
   eslint-plugin-vue: 9.9.0_eslint@8.32.0
   eslint-plugin-yml: 1.4.0_eslint@8.32.0
-  happy-dom: 8.1.4
+  happy-dom: 8.1.5
   histoire: 0.12.4_sass@1.57.1
   husky: 8.0.3
   is-ci: 3.0.1
@@ -79,7 +79,7 @@ devDependencies:
   stylelint-config-standard-scss: 6.1.0_stylelint@14.16.1
   stylelint-config-standard-vue: 1.0.0_kbto3rg3njmczth2rrsgfnlsqa
   typescript: 4.9.4
-  vitest: 0.27.2_q63o36drnil6fpatcuwdh4lch4
+  vitest: 0.27.2_rq5ttxgt66zo4jxxteupto5gje
   vue-tsc: 1.0.24_typescript@4.9.4
 
 packages:
@@ -1578,11 +1578,11 @@ packages:
       vue: 3.2.45
     dev: true
 
-  /@vitest/coverage-c8/0.27.2_q63o36drnil6fpatcuwdh4lch4:
+  /@vitest/coverage-c8/0.27.2_rq5ttxgt66zo4jxxteupto5gje:
     resolution: {integrity: sha512-1MFwlwfwIfPFLfu6aN+dZ5jo2aOah5nAwoq/SrqUkt9rXzUmohLOgI1GTT0PpXbJKqaZicIlWuBjiC+BjVgRwQ==}
     dependencies:
       c8: 7.12.0
-      vitest: 0.27.2_q63o36drnil6fpatcuwdh4lch4
+      vitest: 0.27.2_rq5ttxgt66zo4jxxteupto5gje
     transitivePeerDependencies:
       - '@edge-runtime/vm'
       - '@vitest/browser'
@@ -4262,8 +4262,8 @@ packages:
       ufo: 1.0.1
     dev: true
 
-  /happy-dom/8.1.4:
-    resolution: {integrity: sha512-mUCzXHhSO6fOQlZwKW6z2f/+rYavKNxNrgY4nJ4dp+r8gTGbTENgMZGfM6eJD0DJPRFF8DFyngXdBF93wF96UA==}
+  /happy-dom/8.1.5:
+    resolution: {integrity: sha512-/UXAJ2fHTs4H3vy7TS7c9PKFvPyaNialk2Er9NdXfpBKNaCITMOH03rkjHXp5jnJnSmRBa+av8E08PUAaIB1jQ==}
     dependencies:
       css.escape: 1.5.1
       he: 1.2.0
@@ -8835,7 +8835,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.27.2_q63o36drnil6fpatcuwdh4lch4:
+  /vitest/0.27.2_rq5ttxgt66zo4jxxteupto5gje:
     resolution: {integrity: sha512-y7tdsL2uaQy+KF18AlmNHZe29ukyFytlxrpSTwwmgLE2XHR/aPucJP9FLjWoqjgqFlXzRAjHlFJLU+HDyI/OsA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -8865,7 +8865,7 @@ packages:
       cac: 6.7.14
       chai: 4.3.7
       debug: 4.3.4
-      happy-dom: 8.1.4
+      happy-dom: 8.1.5
       local-pkg: 0.4.2
       picocolors: 1.0.0
       source-map: 0.6.1
