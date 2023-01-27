@@ -1,7 +1,7 @@
 {
   "private": true,
   "license": "MIT",
-  "packageManager": "pnpm@7.26.0",
+  "packageManager": "pnpm@7.26.1",
   "scripts": {
     "dev": "nuxt dev -p 3333",
     "build": "nuxt build",
