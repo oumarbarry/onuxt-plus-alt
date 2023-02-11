@@ -20,7 +20,7 @@ specifiers:
   eslint-plugin-vue: 9.9.0
   eslint-plugin-yml: 1.5.0
   happy-dom: 8.2.6
-  histoire: 0.13.2
+  histoire: 0.14.2
   husky: 8.0.3
   is-ci: 3.0.1
   lint-staged: 13.1.1
@@ -45,8 +45,8 @@ dependencies:
   '@pinia/nuxt': 0.4.6_typescript@4.9.5
 
 devDependencies:
-  '@histoire/plugin-nuxt': 0.14.2_odkb5letkawcglda4ko5uaxlwi
-  '@histoire/plugin-vue': 0.14.2_histoire@0.13.2
+  '@histoire/plugin-nuxt': 0.14.2_4jnqqyqqg2miehysk3zuerxnhi
+  '@histoire/plugin-vue': 0.14.2_histoire@0.14.2
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
   '@nuxtjs/google-fonts': 3.0.0-1
   '@nuxtjs/tailwindcss': 6.3.1
@@ -62,7 +62,7 @@ devDependencies:
   eslint-plugin-vue: 9.9.0_eslint@8.34.0
   eslint-plugin-yml: 1.5.0_eslint@8.34.0
   happy-dom: 8.2.6
-  histoire: 0.13.2_sass@1.58.0
+  histoire: 0.14.2_sass@1.58.0
   husky: 8.0.3
   is-ci: 3.0.1
   lint-staged: 13.1.1
@@ -899,30 +899,17 @@ packages:
       vue: ^3.2.0
     dev: false
 
-  /@histoire/app/0.13.2:
-    resolution: {integrity: sha512-r1N/8svZvLJPWkAYhs6jjw/mTkNSZnY/etOlB+TxMdS0zieVP9SCYC0282My5yidEoTGvk2wh8tInfA000ibwQ==}
+  /@histoire/app/0.14.2:
+    resolution: {integrity: sha512-mY91jH8UPFWYGLnTLbv5ntmly+Yd5etHDKV0+l+q/bRHaKrhGLOtJjr60wyqfxbZ6rDN2sjJAwNDEc6dozFqFw==}
     dependencies:
-      '@histoire/controls': 0.13.2
-      '@histoire/shared': 0.13.2
-      '@histoire/vendors': 0.13.2
+      '@histoire/controls': 0.14.2
+      '@histoire/shared': 0.14.2
+      '@histoire/vendors': 0.14.2
       '@types/flexsearch': 0.7.3
       flexsearch: 0.7.21
       shiki-es: 0.2.0
     transitivePeerDependencies:
       - vite
-    dev: true
-
-  /@histoire/controls/0.13.2:
-    resolution: {integrity: sha512-iDTLisrUQTjpHPgwByOdp/At6SfoRnltlDjZvhZftYsQuuBUaJgktNQbLqy16W/EPhO6uiUyYifSkSG/+8uZTg==}
-    dependencies:
-      '@codemirror/commands': 6.1.2
-      '@codemirror/lang-json': 6.0.1
-      '@codemirror/language': 6.3.0
-      '@codemirror/lint': 6.0.0
-      '@codemirror/state': 6.1.2
-      '@codemirror/theme-one-dark': 6.1.0
-      '@codemirror/view': 6.4.1
-      '@histoire/vendors': 0.13.2
     dev: true
 
   /@histoire/controls/0.14.2:
@@ -938,23 +925,23 @@ packages:
       '@histoire/vendors': 0.14.2
     dev: true
 
-  /@histoire/plugin-nuxt/0.14.2_odkb5letkawcglda4ko5uaxlwi:
+  /@histoire/plugin-nuxt/0.14.2_4jnqqyqqg2miehysk3zuerxnhi:
     resolution: {integrity: sha512-M+Axjxo0bVsopkaZNQJxAFnadNVx1s1Fx18HeXLAWwXf4DEKedTefD9jc0miqOlmr8B2xk3y9NTRLPHo5PbXMA==}
     peerDependencies:
       '@histoire/plugin-vue': ^0.14.2
       histoire: ^0.14.2
       nuxt: ^3.0.0-rc.11
     dependencies:
-      '@histoire/plugin-vue': 0.14.2_histoire@0.13.2
+      '@histoire/plugin-vue': 0.14.2_histoire@0.14.2
       '@nuxt/kit': 3.2.0
-      histoire: 0.13.2_sass@1.58.0
+      histoire: 0.14.2_sass@1.58.0
       nuxt: 3.2.0_mkilpomzp5k55vfe7w5kbebtwe
     transitivePeerDependencies:
       - rollup
       - supports-color
     dev: true
 
-  /@histoire/plugin-vue/0.14.2_histoire@0.13.2:
+  /@histoire/plugin-vue/0.14.2_histoire@0.14.2:
     resolution: {integrity: sha512-pa56RTkNkVXKNnXEeQWEbAO0Yh7mHZRtfcPjHjZYvP0DLThD1WjO+WGspGbsK5Liaog3n3AOZYcqEmw6mSOmmw==}
     peerDependencies:
       histoire: ^0.14.2
@@ -965,23 +952,11 @@ packages:
       '@histoire/vendors': 0.14.2
       change-case: 4.1.2
       globby: 13.1.3
-      histoire: 0.13.2_sass@1.58.0
+      histoire: 0.14.2_sass@1.58.0
       launch-editor: 2.6.0
       pathe: 0.2.0
     transitivePeerDependencies:
       - vite
-    dev: true
-
-  /@histoire/shared/0.13.2:
-    resolution: {integrity: sha512-k35TAU9dmQOpfSiAF1kGNZzm0YB73KnaGTfECKl+nE/WeUeRnZSxPQR093Vr7pWHb6whDz6P4SeIq2drnjQefg==}
-    peerDependencies:
-      vite: ^2.9.0 || ^3.0.0 || ^4.0.0
-    dependencies:
-      '@types/fs-extra': 9.0.13
-      '@types/markdown-it': 12.2.3
-      chokidar: 3.5.3
-      pathe: 0.2.0
-      picocolors: 1.0.0
     dev: true
 
   /@histoire/shared/0.14.2:
@@ -995,10 +970,6 @@ packages:
       chokidar: 3.5.3
       pathe: 0.2.0
       picocolors: 1.0.0
-    dev: true
-
-  /@histoire/vendors/0.13.2:
-    resolution: {integrity: sha512-VpzPZ3JG3SvBz/VEVw14dCyk+1EnEMsk2DY90HgSaeczlBlu4e3xoBtReYMdYTLFwL2QLp51Kn4HKRnUJ6Pk+g==}
     dev: true
 
   /@histoire/vendors/0.14.2:
@@ -1309,7 +1280,7 @@ packages:
       globby: 13.1.3
       hash-sum: 2.0.0
       ignore: 5.2.4
-      jiti: 1.16.2
+      jiti: 1.17.0
       knitwork: 1.0.0
       lodash.template: 4.5.0
       mlly: 1.1.0
@@ -1318,7 +1289,7 @@ packages:
       scule: 1.0.0
       semver: 7.3.8
       unctx: 2.1.1
-      unimport: 2.1.0
+      unimport: 2.2.4
       untyped: 1.2.2
     transitivePeerDependencies:
       - rollup
@@ -4978,16 +4949,16 @@ packages:
     resolution: {integrity: sha512-AVwgTAzeGpF7kwUCMc9HbAoCKFcHGEfmWkaI8g0jprrkh9VPRaofIsfV7Lw8UuR9pi4Rk7IIjJce8l0C+jSJNA==}
     dev: true
 
-  /histoire/0.13.2_sass@1.58.0:
-    resolution: {integrity: sha512-KF2RzVA5PlSaDflQQlHHdCSStZPOsnhbIbjrSXtTYUwY3Y4wNwjQPgxpfIXjyOuC47rbAebEGOAaNfpc56yW0Q==}
+  /histoire/0.14.2_sass@1.58.0:
+    resolution: {integrity: sha512-nY9O5sIbtlUsGsLQqMGi601I09OKH7aZamYPcDlW7g1fmkf7IMb15xiREboMunQEIpDrpAH+9aWBxGIN+iQ5eA==}
     hasBin: true
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0 || ^4.0.0
     dependencies:
-      '@histoire/app': 0.13.2
-      '@histoire/controls': 0.13.2
-      '@histoire/shared': 0.13.2
-      '@histoire/vendors': 0.13.2
+      '@histoire/app': 0.14.2
+      '@histoire/controls': 0.14.2
+      '@histoire/shared': 0.14.2
+      '@histoire/vendors': 0.14.2
       '@types/flexsearch': 0.7.3
       '@types/markdown-it': 12.2.3
       birpc: 0.1.1
@@ -5000,7 +4971,7 @@ packages:
       fs-extra: 10.1.0
       globby: 13.1.3
       gray-matter: 4.0.3
-      jiti: 1.16.2
+      jiti: 1.17.0
       jsdom: 20.0.3
       markdown-it: 12.3.2
       markdown-it-anchor: 8.6.5_2zb4u3vubltivolgu556vv4aom
@@ -5619,6 +5590,7 @@ packages:
   /jiti/1.16.2:
     resolution: {integrity: sha512-OKBOVWmU3FxDt/UH4zSwiKPuc1nihFZiOD722FuJlngvLz2glX1v2/TJIgoA4+mrpnXxHV6dSAoCvPcYQtoG5A==}
     hasBin: true
+    dev: false
 
   /jiti/1.17.0:
     resolution: {integrity: sha512-CByzPgFqYoB9odEeef7GNmQ3S5THIBOtzRYoSCya2Sv27AuQxy2jgoFjQ6VTF53xsq1MXRm+YWNvOoDHUAteOw==}
@@ -5726,7 +5698,7 @@ packages:
     resolution: {integrity: sha512-qCRJWlbP2v6HbmKW7R3lFbeiVWHo+oMJ0j+MizwvauqnCV/EvtAeEeuCgoc/ErtsuoKgYB8U4Ih8AxJbXoE6/g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
-      acorn: 8.8.1
+      acorn: 8.8.2
       eslint-visitor-keys: 3.3.0
       espree: 9.4.0
       semver: 7.3.8
@@ -6662,7 +6634,7 @@ packages:
       '@nuxt/kit': 3.2.0
       changelogen: 0.4.1
       defu: 6.1.2
-      jiti: 1.16.2
+      jiti: 1.17.0
       pathe: 1.1.0
       untyped: 1.2.2
     transitivePeerDependencies:
@@ -9135,24 +9107,6 @@ packages:
     transitivePeerDependencies:
       - rollup
     dev: false
-
-  /unimport/2.1.0:
-    resolution: {integrity: sha512-GDVIxATluUquX8EqelT6DtnmnZaXGID1jsO9IXwlnxb0OIEqKAxTOnTlnGmHbseoGTh+ZC9kcNDaO18HYQj9KA==}
-    dependencies:
-      '@rollup/pluginutils': 5.0.2
-      escape-string-regexp: 5.0.0
-      fast-glob: 3.2.12
-      local-pkg: 0.4.3
-      magic-string: 0.27.0
-      mlly: 1.1.0
-      pathe: 1.1.0
-      pkg-types: 1.0.1
-      scule: 1.0.0
-      strip-literal: 1.0.1
-      unplugin: 1.0.1
-    transitivePeerDependencies:
-      - rollup
-    dev: true
 
   /unimport/2.2.4:
     resolution: {integrity: sha512-qMgmeEGqqrrmEtm0dqxMG37J6xBtrriqxq9hILvDb+e6l2F0yTnJomLoCCp0eghLR7bYGeBsUU5Y0oyiUYhViw==}
