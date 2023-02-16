@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@headlessui/vue': 1.7.10
-  '@histoire/plugin-nuxt': 0.15.3
+  '@histoire/plugin-nuxt': 0.15.4
   '@histoire/plugin-vue': 0.15.3
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
   '@nuxtjs/google-fonts': 3.0.0-1
@@ -45,7 +45,7 @@ dependencies:
   '@pinia/nuxt': 0.4.6_typescript@4.9.5
 
 devDependencies:
-  '@histoire/plugin-nuxt': 0.15.3_gv7yh5ms2rbfdgw4wk473yvgue
+  '@histoire/plugin-nuxt': 0.15.4_gv7yh5ms2rbfdgw4wk473yvgue
   '@histoire/plugin-vue': 0.15.3_histoire@0.14.2
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
   '@nuxtjs/google-fonts': 3.0.0-1
@@ -941,11 +941,11 @@ packages:
       - vite
     dev: true
 
-  /@histoire/plugin-nuxt/0.15.3_gv7yh5ms2rbfdgw4wk473yvgue:
-    resolution: {integrity: sha512-eI/h1mIa5aDxVh3WLATohzWpbKnmSl3KJ+BMGaf3NnaMDuiD9daw8m0dclul9xr7/YpAk0psSmELxPScpQjdkg==}
+  /@histoire/plugin-nuxt/0.15.4_gv7yh5ms2rbfdgw4wk473yvgue:
+    resolution: {integrity: sha512-an2F+dX6XehVm637rZOwKPXD5U0M5OfonElGzS4bfnCDliq7HwAPjlvi00qjwNUCeeqxFyyPCXZWOw6cPt8chg==}
     peerDependencies:
-      '@histoire/plugin-vue': ^0.15.3
-      histoire: ^0.15.3
+      '@histoire/plugin-vue': ^0.15.4
+      histoire: ^0.15.4
       nuxt: ^3.0.0-rc.11
     dependencies:
       '@histoire/plugin-vue': 0.15.3_histoire@0.14.2
