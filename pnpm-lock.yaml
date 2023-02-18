@@ -19,7 +19,7 @@ specifiers:
   eslint-plugin-jsonc: 2.6.0
   eslint-plugin-vue: 9.9.0
   eslint-plugin-yml: 1.5.0
-  happy-dom: 8.4.4
+  happy-dom: 8.5.0
   histoire: 0.15.8
   husky: 8.0.3
   is-ci: 3.0.1
@@ -53,7 +53,7 @@ devDependencies:
   '@testing-library/vue': 6.6.1
   '@typescript-eslint/eslint-plugin': 5.52.0_6cfvjsbua5ptj65675bqcn6oza
   '@typescript-eslint/parser': 5.52.0_7kw3g6rralp5ps6mg3uyzz6azm
-  '@vitest/coverage-c8': 0.28.5_o2ii2t2i6ddlxdqvbqmy3kny7a
+  '@vitest/coverage-c8': 0.28.5_bxwpz4pgettwkjhyags2eto6tu
   '@vueuse/core': 9.13.0
   '@vueuse/nuxt': 9.13.0_nuxt@3.2.2
   eslint: 8.34.0
@@ -61,7 +61,7 @@ devDependencies:
   eslint-plugin-jsonc: 2.6.0_eslint@8.34.0
   eslint-plugin-vue: 9.9.0_eslint@8.34.0
   eslint-plugin-yml: 1.5.0_eslint@8.34.0
-  happy-dom: 8.4.4
+  happy-dom: 8.5.0
   histoire: 0.15.8_sass@1.58.3
   husky: 8.0.3
   is-ci: 3.0.1
@@ -79,7 +79,7 @@ devDependencies:
   stylelint-config-standard-scss: 7.0.1_stylelint@15.1.0
   stylelint-config-standard-vue: 1.0.0_qaaem4ytw5dycdgwcgrc5pmjki
   typescript: 4.9.5
-  vitest: 0.28.5_o2ii2t2i6ddlxdqvbqmy3kny7a
+  vitest: 0.28.5_bxwpz4pgettwkjhyags2eto6tu
   vue-tsc: 1.1.3_typescript@4.9.5
 
 packages:
@@ -1205,21 +1205,21 @@ packages:
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
       '@nuxt/schema': 3.0.0
-      c12: 1.1.0
+      c12: 1.1.2
       consola: 2.15.3
       defu: 6.1.2
       globby: 13.1.3
       hash-sum: 2.0.0
       ignore: 5.2.4
-      jiti: 1.17.0
+      jiti: 1.17.1
       knitwork: 1.0.0
       lodash.template: 4.5.0
-      mlly: 1.1.0
+      mlly: 1.1.1
       pathe: 1.1.0
-      pkg-types: 1.0.1
+      pkg-types: 1.0.2
       scule: 1.0.0
       semver: 7.3.8
-      unctx: 2.1.1
+      unctx: 2.1.2
       unimport: 1.3.0
       untyped: 1.2.2
     transitivePeerDependencies:
@@ -2150,13 +2150,13 @@ packages:
       vue: 3.2.47
     dev: true
 
-  /@vitest/coverage-c8/0.28.5_o2ii2t2i6ddlxdqvbqmy3kny7a:
+  /@vitest/coverage-c8/0.28.5_bxwpz4pgettwkjhyags2eto6tu:
     resolution: {integrity: sha512-zCNyurjudoG0BAqAgknvlBhkV2V9ZwyYLWOAGtHSDhL/St49MJT+V2p1G0yPaoqBbKOTATVnP5H2p1XL15H75g==}
     dependencies:
       c8: 7.12.0
       picocolors: 1.0.0
       std-env: 3.3.2
-      vitest: 0.28.5_o2ii2t2i6ddlxdqvbqmy3kny7a
+      vitest: 0.28.5_bxwpz4pgettwkjhyags2eto6tu
     transitivePeerDependencies:
       - '@edge-runtime/vm'
       - '@vitest/browser'
@@ -2837,21 +2837,6 @@ packages:
       pkg-types: 0.3.6
       rc9: 1.2.2
     dev: true
-
-  /c12/1.1.0:
-    resolution: {integrity: sha512-9KRFWEng+TH8sGST4NNdiKzZGw1Z1CHnPGAmNqAyVP7suluROmBjD8hsiR34f94DdlrvtGvvmiGDsoFXlCBWIw==}
-    dependencies:
-      defu: 6.1.2
-      dotenv: 16.0.3
-      giget: 1.1.2
-      jiti: 1.17.1
-      mlly: 1.1.1
-      pathe: 1.1.0
-      pkg-types: 1.0.2
-      rc9: 2.0.1
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
 
   /c12/1.1.2:
     resolution: {integrity: sha512-fHT5HDEHNMb2oImnqJ88/UlpEOkY/chdyYxSd3YCpvBqBvU0IDlHTkNc7GnjObDMxdis2lL+rwlQcNq8VeZESA==}
@@ -4787,8 +4772,8 @@ packages:
       uncrypto: 0.1.2
     dev: true
 
-  /happy-dom/8.4.4:
-    resolution: {integrity: sha512-v0RbFlIIApDN8D7HOlCJWKE4BiRZgidM6I0v/1//ctDLkJcgvitgTw/AZ3S2BPN5Z9cMaVLnOIuvakJhf8dojw==}
+  /happy-dom/8.5.0:
+    resolution: {integrity: sha512-lvTGebHYr6h13Fox5Gfej3DinLWzvvfYlBFvlxG2Y/RmaGoDrJ5Xdwyqnk5YxbDJeEpZuKn8holCidlxvkkqGw==}
     dependencies:
       css.escape: 1.5.1
       he: 1.2.0
@@ -5504,10 +5489,6 @@ packages:
     hasBin: true
     dev: true
 
-  /jiti/1.17.0:
-    resolution: {integrity: sha512-CByzPgFqYoB9odEeef7GNmQ3S5THIBOtzRYoSCya2Sv27AuQxy2jgoFjQ6VTF53xsq1MXRm+YWNvOoDHUAteOw==}
-    hasBin: true
-
   /jiti/1.17.1:
     resolution: {integrity: sha512-NZIITw8uZQFuzQimqjUxIrIcEdxYDFIe/0xYfIlVXTkiBjjyBEvgasj5bb0/cHtPRD/NziPbT312sFrkI5ALpw==}
     hasBin: true
@@ -5986,6 +5967,7 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       sourcemap-codec: 1.4.8
+    dev: true
 
   /magic-string/0.27.0:
     resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
@@ -6258,15 +6240,6 @@ packages:
       pkg-types: 0.3.6
       ufo: 0.8.6
     dev: true
-
-  /mlly/1.1.0:
-    resolution: {integrity: sha512-cwzBrBfwGC1gYJyfcy8TcZU1f+dbH/T+TuOhtYP2wLv/Fb51/uV7HJQfBPtEupZ2ORLRU1EKFS/QfS3eo9+kBQ==}
-    dependencies:
-      acorn: 8.8.2
-      pathe: 1.1.0
-      pkg-types: 1.0.2
-      ufo: 1.1.0
-    dev: false
 
   /mlly/1.1.1:
     resolution: {integrity: sha512-Jnlh4W/aI4GySPo6+DyTN17Q75KKbLTyFK8BrGhjNP4rxuUjbRWhE6gHg3bs33URWAF44FRm7gdQA348i3XxRw==}
@@ -6573,7 +6546,7 @@ packages:
       '@nuxt/kit': 3.2.2
       changelogen: 0.4.1
       defu: 6.1.2
-      jiti: 1.17.0
+      jiti: 1.17.1
       pathe: 1.1.0
       untyped: 1.2.2
     transitivePeerDependencies:
@@ -7069,14 +7042,6 @@ packages:
       mlly: 0.5.16
       pathe: 0.3.9
     dev: true
-
-  /pkg-types/1.0.1:
-    resolution: {integrity: sha512-jHv9HB+Ho7dj6ItwppRDDl0iZRYBD0jsakHXtFgoLr+cHSF6xC+QL54sJmWxyGxOLYSHm0afhXhXcQDQqH9z8g==}
-    dependencies:
-      jsonc-parser: 3.2.0
-      mlly: 1.1.1
-      pathe: 1.1.0
-    dev: false
 
   /pkg-types/1.0.2:
     resolution: {integrity: sha512-hM58GKXOcj8WTqUXnsQyJYXdeAPbythQgEF3nTcEo+nkD49chjQ9IKm/QJy9xf6JakXptz86h7ecP2024rrLaQ==}
@@ -8216,6 +8181,7 @@ packages:
   /sourcemap-codec/1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
     deprecated: Please use @jridgewell/sourcemap-codec instead
+    dev: true
 
   /spdx-correct/3.1.1:
     resolution: {integrity: sha512-cOYcUWwhCuHCXi49RhFRCyJEK3iPj1Ziz9DpViV3tbZOwXD49QzIN3MpOLJNxh2qwq2lJJZaKMVw9qNi4jTC0w==}
@@ -8979,15 +8945,6 @@ packages:
     resolution: {integrity: sha512-kuZwRKV615lEw/Xx3Iz56FKk3nOeOVGaVmw0eg+x4Mne28lCotNFbBhDW7dEBCBKyKbRQiCadEZeNAFPVC5cgw==}
     dev: true
 
-  /unctx/2.1.1:
-    resolution: {integrity: sha512-RffJlpvLOtolWsn0fxXsuSDfwiWcR6cyuykw2e0+zAggvGW1SesXt9WxIWlWpJhwVCZD/WlxxLqKLS50Q0CkWA==}
-    dependencies:
-      acorn: 8.8.2
-      estree-walker: 3.0.3
-      magic-string: 0.26.7
-      unplugin: 1.1.0
-    dev: false
-
   /unctx/2.1.2:
     resolution: {integrity: sha512-KK18aLRKe3OlbPyHbXAkIWSU3xK8GInomXfA7fzDMGFXQ1crX1UWrCzKesVXeUyHIayHUrnTvf87IPCKMyeKTg==}
     dependencies:
@@ -8995,7 +8952,6 @@ packages:
       estree-walker: 3.0.3
       magic-string: 0.27.0
       unplugin: 1.1.0
-    dev: true
 
   /undici/5.10.0:
     resolution: {integrity: sha512-c8HsD3IbwmjjbLvoZuRI26TZic+TSEe8FPMLLOkN1AfYRhdjnKBU6yL+IwcSCbdZiX4e5t0lfMDLDCqj4Sq70g==}
@@ -9490,7 +9446,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.28.5_o2ii2t2i6ddlxdqvbqmy3kny7a:
+  /vitest/0.28.5_bxwpz4pgettwkjhyags2eto6tu:
     resolution: {integrity: sha512-pyCQ+wcAOX7mKMcBNkzDwEHRGqQvHUl0XnoHR+3Pb1hytAHISgSxv9h0gUiSiYtISXUU3rMrKiKzFYDrI6ZIHA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -9524,7 +9480,7 @@ packages:
       cac: 6.7.14
       chai: 4.3.7
       debug: 4.3.4
-      happy-dom: 8.4.4
+      happy-dom: 8.5.0
       local-pkg: 0.4.3
       pathe: 1.1.0
       picocolors: 1.0.0
