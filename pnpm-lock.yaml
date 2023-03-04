@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@headlessui/vue': 1.7.11
+  '@headlessui/vue': 1.7.12
   '@histoire/plugin-nuxt': 0.15.8
   '@histoire/plugin-vue': 0.15.8
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
@@ -41,7 +41,7 @@ specifiers:
   vue-tsc: 1.2.0
 
 dependencies:
-  '@headlessui/vue': 1.7.11
+  '@headlessui/vue': 1.7.12
   '@pinia/nuxt': 0.4.7_typescript@4.9.5
 
 devDependencies:
@@ -902,8 +902,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@headlessui/vue/1.7.11:
-    resolution: {integrity: sha512-VsNqx9Lc1ftOyIazBF9EX5BS4WYwwaFX+1jBWXQakeH1o4xnoZKlBSlvEgmAnFLO9GDVmn7kKVOWfFgQn2aRZA==}
+  /@headlessui/vue/1.7.12:
+    resolution: {integrity: sha512-IV0k1I2I8Bj37HljFF231Y9cpldfiucf+inMCxA/VPoQT6UTxo0N/rb78CrogBxXNfsPxKmz3y/nlv+eRz6zvg==}
     engines: {node: '>=10'}
     peerDependencies:
       vue: ^3.2.0
