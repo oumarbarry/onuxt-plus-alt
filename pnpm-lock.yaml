@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@headlessui/vue': 1.7.12
-  '@histoire/plugin-nuxt': 0.15.8
+  '@histoire/plugin-nuxt': 0.15.9
   '@histoire/plugin-vue': 0.15.8
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
   '@nuxtjs/google-fonts': 3.0.0
@@ -45,7 +45,7 @@ dependencies:
   '@pinia/nuxt': 0.4.7_typescript@5.0.2
 
 devDependencies:
-  '@histoire/plugin-nuxt': 0.15.8_cta3khltfzq7rzwz2z2pyrc2am
+  '@histoire/plugin-nuxt': 0.15.9_cta3khltfzq7rzwz2z2pyrc2am
   '@histoire/plugin-vue': 0.15.8_histoire@0.15.8
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
   '@nuxtjs/google-fonts': 3.0.0
@@ -1285,20 +1285,20 @@ packages:
       - vite
     dev: true
 
-  /@histoire/plugin-nuxt/0.15.8_cta3khltfzq7rzwz2z2pyrc2am:
-    resolution: {integrity: sha512-qAFernLXyUOUjGTed0bzacuyu2XGhfoFSYt0Bd3ZUazPJyVIYkPfjQDVZB+qCPTEzxiIxYPwWJfu3iZW15I5Ng==}
+  /@histoire/plugin-nuxt/0.15.9_cta3khltfzq7rzwz2z2pyrc2am:
+    resolution: {integrity: sha512-3MlY93YSTpuXnRxxe79Lmyf8ry3LRh4+5ymJLhWDNMUH6RvsSv8pnNgWba7WWZFRqNEbU+x/g8dU7tM23UEDIA==}
     peerDependencies:
       '@histoire/plugin-vue': ^0.15.8
       histoire: ^0.15.8
       nuxt: ^3.0.0-rc.11
     dependencies:
       '@histoire/plugin-vue': 0.15.8_histoire@0.15.8
-      '@nuxt/kit': 3.2.2
-      h3: 1.5.0
+      '@nuxt/kit': 3.3.1
+      h3: 1.6.0
       histoire: 0.15.8_sass@1.59.3
       nuxt: 3.3.1_he5kypfnxbuztio3gvi53wcpg4
       ofetch: 1.0.1
-      unenv: 1.2.0
+      unenv: 1.2.2
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -5143,18 +5143,6 @@ packages:
       duplexer: 0.1.2
     dev: true
 
-  /h3/1.5.0:
-    resolution: {integrity: sha512-M+T6P4iOB0ipkC/ZCdw2w8iTF7yY6phmkILOwlrtcPuVv+KW9BilOspYlvnblpKx1nnNl+3iBsZIvZ8pvKM8Nw==}
-    dependencies:
-      cookie-es: 0.5.0
-      defu: 6.1.2
-      destr: 1.2.2
-      iron-webcrypto: 0.5.0
-      radix3: 1.0.0
-      ufo: 1.1.0
-      uncrypto: 0.1.2
-    dev: true
-
   /h3/1.6.0:
     resolution: {integrity: sha512-MthVCNIGkFnywJcwaPe7BWB5Y5BQJmtddu0ABnn3TAjkCqa/EzPafIfwv+wajWxjepRGrVsmu4X0ld5IGtLDHQ==}
     dependencies:
@@ -7148,7 +7136,7 @@ packages:
     dependencies:
       destr: 1.2.2
       node-fetch-native: 1.0.2
-      ufo: 1.1.0
+      ufo: 1.1.1
     dev: true
 
   /ohash/1.0.0:
@@ -9431,10 +9419,6 @@ packages:
     resolution: {integrity: sha512-fk6CmUgwKCfX79EzcDQQpSCMxrHstvbLswFChHS0Vump+kFkw7nJBfTZoC1j0bOGoY9I7R3n2DGek5ajbcYnOw==}
     dev: true
 
-  /ufo/1.1.0:
-    resolution: {integrity: sha512-LQc2s/ZDMaCN3QLpa+uzHUOQ7SdV0qgv3VBXOolQGXTaaZpIur6PwUclF5nN2hNkiTRcUugXd1zFOW3FLJ135Q==}
-    dev: true
-
   /ufo/1.1.1:
     resolution: {integrity: sha512-MvlCc4GHrmZdAllBc0iUDowff36Q9Ndw/UzqmEKyrfSzokTd9ZCy1i+IIk5hrYKkjoYVQyNbrw7/F8XJ2rEwTg==}
 
@@ -9464,15 +9448,6 @@ packages:
     engines: {node: '>=12.18'}
     dependencies:
       busboy: 1.6.0
-    dev: true
-
-  /unenv/1.2.0:
-    resolution: {integrity: sha512-8AcXA+xAz/C8ZVlIv+voD/uCe6V/LkQgZtQYOBjuKYNXhBitsOiy+QYrUPelLRDY2WB86Njw/qLawYNh8iDsvQ==}
-    dependencies:
-      defu: 6.1.2
-      mime: 3.0.0
-      node-fetch-native: 1.0.2
-      pathe: 1.1.0
     dev: true
 
   /unenv/1.2.2:
