@@ -7,7 +7,7 @@ specifiers:
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
   '@nuxtjs/google-fonts': 3.0.0
   '@nuxtjs/tailwindcss': 6.6.5
-  '@pinia/nuxt': 0.4.7
+  '@pinia/nuxt': 0.4.8
   '@testing-library/vue': 7.0.0
   '@typescript-eslint/eslint-plugin': 5.57.1
   '@typescript-eslint/parser': 5.57.1
@@ -42,7 +42,7 @@ specifiers:
 
 dependencies:
   '@headlessui/vue': 1.7.12
-  '@pinia/nuxt': 0.4.7_typescript@5.0.3
+  '@pinia/nuxt': 0.4.8_typescript@5.0.3
 
 devDependencies:
   '@histoire/plugin-nuxt': 0.15.9_c5q5akikaffgjhrk3bjk54xnya
@@ -1271,6 +1271,7 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
+    dev: true
 
   /@nuxt/kit/3.2.3:
     resolution: {integrity: sha512-wcsVlQLwGkh1cRhAFWHc3uYHdIxFTRNdRUzNyfqoX9DL0Fuga3K75q/PBY0xg1viA9R6F5BMPhc7KDLSWbXtWg==}
@@ -1378,7 +1379,6 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
-    dev: true
 
   /@nuxt/postcss8/1.1.3:
     resolution: {integrity: sha512-CdHtErhvQwueNZPBOmlAAKrNCK7aIpZDYhtS7TzXlSgPHHox1g3cSlf+Ke9oB/8t4mNNjdB+prclme2ibuCOEA==}
@@ -1431,6 +1431,7 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
+    dev: true
 
   /@nuxt/schema/3.2.3:
     resolution: {integrity: sha512-AXzRnBivCwn5RpNFWjUkvOPGPSHl5BM+6GfOpSNglPXi0tiQJ+rawSl7no7BkxGDmQ44Bx9AXwvHTrgjpcuo4g==}
@@ -1518,7 +1519,6 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
-    dev: true
 
   /@nuxt/telemetry/2.1.10:
     resolution: {integrity: sha512-FOsfC0i6Ix66M/ZlWV/095JIdfnRR9CRbFvBSpojt2CpbwU1pGMbRiicwYg2f1Wf27LXQRNpNn1OczruBfEWag==}
@@ -1676,11 +1676,11 @@ packages:
     resolution: {integrity: sha512-Aq58f5HiWdyDlFffbbSjAlv596h/cOnt2DO1w3DOC7OJ5EHs0hd/nycJfiu9RJbT6Yk6F1knnRRXNSpxoIVZ9Q==}
     dev: true
 
-  /@pinia/nuxt/0.4.7_typescript@5.0.3:
-    resolution: {integrity: sha512-ifgA9PO/jmPlK1e/HtkrZa7OMSL8EUOpo8Z1O5vNLRr/OZ42kKGEaY1NbIoCz6dIf/pbkATTNHJmcrlPCo3zSA==}
+  /@pinia/nuxt/0.4.8_typescript@5.0.3:
+    resolution: {integrity: sha512-E0HKmW+6Ec5HYzomZl86xil2rGPRAqKG1d+slVVLBHC7PFZOM0VIw/1XFO9hwo+EiCuDEXZDReZwTqO7KQsMgQ==}
     dependencies:
-      '@nuxt/kit': 3.2.2
-      pinia: 2.0.31_typescript@5.0.3
+      '@nuxt/kit': 3.3.3
+      pinia: 2.0.34_typescript@5.0.3
     transitivePeerDependencies:
       - '@vue/composition-api'
       - rollup
@@ -6063,7 +6063,6 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.14
-    dev: true
 
   /make-dir/3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
@@ -7109,8 +7108,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /pinia/2.0.31_typescript@5.0.3:
-    resolution: {integrity: sha512-6OOKZGX79jm3q0xAu+X/PaRjfyOcFnPXcHFAA8HHa+wbJeSi5xc/nYqO8Ff7XLvwV8mKGYXcUfZUHbqUmw6P0w==}
+  /pinia/2.0.34_typescript@5.0.3:
+    resolution: {integrity: sha512-cgOoGUiyqX0SSgX8XelK9+Ri4XA2/YyNtgjogwfzIx1g7iZTaZPxm7/bZYMCLU2qHRiHhxG7SuQO0eBacFNc2Q==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
@@ -9156,6 +9155,7 @@ packages:
       unplugin: 1.3.1
     transitivePeerDependencies:
       - rollup
+    dev: true
 
   /unimport/3.0.2:
     resolution: {integrity: sha512-OQ0hShpcerS1PSsISsyn/NV2dGe5xfdUn4p5nwOodq0iqq5xxYQrTidHqlFGjxIliPDtDJp80OeySzyPTjYHmA==}
@@ -9191,7 +9191,6 @@ packages:
       unplugin: 1.3.1
     transitivePeerDependencies:
       - rollup
-    dev: true
 
   /unimport/3.0.4_rollup@3.20.2:
     resolution: {integrity: sha512-eoof/HLiNJcIkVpnqc7sJbzKSLx39J6xTaP7E4ElgVQKeq2t9fPTkvJKcA55IJTaRPkEkDq8kcc/IZPmrypnFg==}
