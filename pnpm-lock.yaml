@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@headlessui/vue': 1.7.12
-  '@histoire/plugin-nuxt': 0.15.9
+  '@histoire/plugin-nuxt': 0.16.0
   '@histoire/plugin-vue': 0.15.8
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
   '@nuxtjs/google-fonts': 3.0.0
@@ -45,7 +45,7 @@ dependencies:
   '@pinia/nuxt': 0.4.8_typescript@5.0.4
 
 devDependencies:
-  '@histoire/plugin-nuxt': 0.15.9_c5q5akikaffgjhrk3bjk54xnya
+  '@histoire/plugin-nuxt': 0.16.0_c5q5akikaffgjhrk3bjk54xnya
   '@histoire/plugin-vue': 0.15.8_histoire@0.15.9
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
   '@nuxtjs/google-fonts': 3.0.0
@@ -781,16 +781,16 @@ packages:
       - vite
     dev: true
 
-  /@histoire/plugin-nuxt/0.15.9_c5q5akikaffgjhrk3bjk54xnya:
-    resolution: {integrity: sha512-3MlY93YSTpuXnRxxe79Lmyf8ry3LRh4+5ymJLhWDNMUH6RvsSv8pnNgWba7WWZFRqNEbU+x/g8dU7tM23UEDIA==}
+  /@histoire/plugin-nuxt/0.16.0_c5q5akikaffgjhrk3bjk54xnya:
+    resolution: {integrity: sha512-6PvIinH13HEBlwIlVcBxCS0F0IEgPF47XgAk/RHMEjxOQJP2yVhhOPZJLbaOrqljZAK9COsWbRP/FFnzqUKK9Q==}
     peerDependencies:
       '@histoire/plugin-vue': ^0.15.8
       histoire: ^0.15.8
       nuxt: ^3.0.0-rc.11
     dependencies:
       '@histoire/plugin-vue': 0.15.8_histoire@0.15.9
-      '@nuxt/kit': 3.3.1
-      h3: 1.6.0
+      '@nuxt/kit': 3.3.3
+      h3: 1.6.4
       histoire: 0.15.9_sass@1.61.0
       nuxt: 3.3.3_cimjqofgf54hjvczww4dqiyica
       ofetch: 1.0.1
@@ -4600,18 +4600,6 @@ packages:
       duplexer: 0.1.2
     dev: true
 
-  /h3/1.6.0:
-    resolution: {integrity: sha512-MthVCNIGkFnywJcwaPe7BWB5Y5BQJmtddu0ABnn3TAjkCqa/EzPafIfwv+wajWxjepRGrVsmu4X0ld5IGtLDHQ==}
-    dependencies:
-      cookie-es: 0.5.0
-      defu: 6.1.2
-      destr: 1.2.2
-      iron-webcrypto: 0.5.0
-      radix3: 1.0.0
-      ufo: 1.1.1
-      uncrypto: 0.1.2
-    dev: true
-
   /h3/1.6.2:
     resolution: {integrity: sha512-1v/clj/qCzWbuiG+DbpViuOVO789sEYNjlwRjekkmyLGsezIJk30gazbnjcWvF8L/ffUdRz2SwxE5HNgNx+Yjg==}
     dependencies:
@@ -5050,10 +5038,6 @@ packages:
   /ip-regex/5.0.0:
     resolution: {integrity: sha512-fOCG6lhoKKakwv+C6KdsOnGvgXnmgfmp0myi3bcNwj3qfwPAxRKWEuFhvEFF7ceYIz6+1jRZ+yguLFAmUNPEfw==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
-    dev: true
-
-  /iron-webcrypto/0.5.0:
-    resolution: {integrity: sha512-9m0tDUIo+GPwDYi1CNlAW3ToIFTS9y88lf41KsEwbBsL4PKNjhrNDGoA0WlB6WWaJ6pgp+FOP1+6ls0YftivyA==}
     dev: true
 
   /iron-webcrypto/0.6.0:
