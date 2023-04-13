@@ -19,7 +19,7 @@ specifiers:
   eslint-plugin-jsonc: 2.7.0
   eslint-plugin-vue: 9.10.0
   eslint-plugin-yml: 1.5.0
-  happy-dom: 9.3.2
+  happy-dom: 9.5.0
   histoire: 0.16.0
   husky: 8.0.3
   is-ci: 3.0.1
@@ -61,7 +61,7 @@ devDependencies:
   eslint-plugin-jsonc: 2.7.0_eslint@8.38.0
   eslint-plugin-vue: 9.10.0_eslint@8.38.0
   eslint-plugin-yml: 1.5.0_eslint@8.38.0
-  happy-dom: 9.3.2
+  happy-dom: 9.5.0
   histoire: 0.16.0_sass@1.62.0
   husky: 8.0.3
   is-ci: 3.0.1
@@ -79,7 +79,7 @@ devDependencies:
   stylelint-config-standard-scss: 8.0.0_stylelint@15.4.0
   stylelint-config-standard-vue: 1.0.0_4i3jeu7aznyfktsaj5a2mymbyu
   typescript: 5.0.4
-  vitest: 0.30.1_mhnc7vyxfqbfm7oqbn5pdbgve4
+  vitest: 0.30.1_ryetupgqhulqixezoe3nzx5t3e
   vue-tsc: 1.2.0_typescript@5.0.4
 
 packages:
@@ -1895,7 +1895,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.3.8
+      semver: 7.4.0
       tsutils: 3.21.0_typescript@5.0.4
       typescript: 5.0.4
     transitivePeerDependencies:
@@ -2025,7 +2025,7 @@ packages:
       c8: 7.13.0
       picocolors: 1.0.0
       std-env: 3.3.2
-      vitest: 0.30.1_mhnc7vyxfqbfm7oqbn5pdbgve4
+      vitest: 0.30.1_ryetupgqhulqixezoe3nzx5t3e
     dev: true
 
   /@vitest/expect/0.30.1:
@@ -4631,8 +4631,8 @@ packages:
       uncrypto: 0.1.2
     dev: true
 
-  /happy-dom/9.3.2:
-    resolution: {integrity: sha512-WTsnOmYXCiHs4REtjWSpi4lWJfhFj3ag9NMRrl0a1gwmAXwjRGm7fppdf6e3v38HtOins1Lgv0WKY8+ZlL0kDQ==}
+  /happy-dom/9.5.0:
+    resolution: {integrity: sha512-pNdHSZRWIckzg8aDQRbBgaivr2Ef+uSTpCCRGnxIETyewHA6841T8EPE+cmfhPjGi5jQN6c+oloXGGYB5SrpcA==}
     dependencies:
       css.escape: 1.5.1
       he: 1.2.0
@@ -9426,7 +9426,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.30.1_mhnc7vyxfqbfm7oqbn5pdbgve4:
+  /vitest/0.30.1_ryetupgqhulqixezoe3nzx5t3e:
     resolution: {integrity: sha512-y35WTrSTlTxfMLttgQk4rHcaDkbHQwDP++SNwPb+7H8yb13Q3cu2EixrtHzF27iZ8v0XCciSsLg00RkPAzB/aA==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -9471,7 +9471,7 @@ packages:
       chai: 4.3.7
       concordance: 5.0.4
       debug: 4.3.4
-      happy-dom: 9.3.2
+      happy-dom: 9.5.0
       local-pkg: 0.4.3
       magic-string: 0.30.0
       pathe: 1.1.0
