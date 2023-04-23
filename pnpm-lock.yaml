@@ -28,7 +28,7 @@ specifiers:
   nuxt: 3.4.2
   nuxt-icon: 0.3.3
   postcss-html: 1.5.0
-  prettier: 2.8.7
+  prettier: 2.8.8
   sass: 1.62.0
   stylelint: 15.6.0
   stylelint-config-css-modules: 4.2.0
@@ -70,7 +70,7 @@ devDependencies:
   nuxt: 3.4.2_rxpr2r2ekiw55qkkhc2azuia5u
   nuxt-icon: 0.3.3
   postcss-html: 1.5.0
-  prettier: 2.8.7
+  prettier: 2.8.8
   sass: 1.62.0
   stylelint: 15.6.0
   stylelint-config-css-modules: 4.2.0_stylelint@15.6.0
@@ -7780,8 +7780,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.8.7:
-    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
+  /prettier/2.8.8:
+    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
