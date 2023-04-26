@@ -44,7 +44,7 @@
     "histoire": "0.16.1",
     "husky": "8.0.3",
     "is-ci": "3.0.1",
-    "lint-staged": "13.2.1",
+    "lint-staged": "13.2.2",
     "msw": "1.2.1",
     "nuxt": "3.4.2",
     "nuxt-icon": "0.4.0",
