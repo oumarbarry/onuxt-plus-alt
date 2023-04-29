@@ -19,7 +19,7 @@ specifiers:
   eslint-plugin-jsonc: 2.7.0
   eslint-plugin-vue: 9.11.0
   eslint-plugin-yml: 1.5.0
-  happy-dom: 9.9.2
+  happy-dom: 9.10.0
   histoire: 0.16.1
   husky: 8.0.3
   is-ci: 3.0.1
@@ -61,7 +61,7 @@ devDependencies:
   eslint-plugin-jsonc: 2.7.0_eslint@8.39.0
   eslint-plugin-vue: 9.11.0_eslint@8.39.0
   eslint-plugin-yml: 1.5.0_eslint@8.39.0
-  happy-dom: 9.9.2
+  happy-dom: 9.10.0
   histoire: 0.16.1_sass@1.62.1
   husky: 8.0.3
   is-ci: 3.0.1
@@ -79,7 +79,7 @@ devDependencies:
   stylelint-config-standard-scss: 9.0.0_stylelint@15.6.0
   stylelint-config-standard-vue: 1.0.0_4ijkf65ldiyevljotxczmbagre
   typescript: 5.0.4
-  vitest: 0.30.1_wtrbyfdufcwft6i3armob42xn4
+  vitest: 0.30.1_nigzoniicqo2skbxy6knhwxrfy
   vue-tsc: 1.6.1_typescript@5.0.4
 
 packages:
@@ -1879,7 +1879,7 @@ packages:
       c8: 7.13.0
       picocolors: 1.0.0
       std-env: 3.3.2
-      vitest: 0.30.1_wtrbyfdufcwft6i3armob42xn4
+      vitest: 0.30.1_nigzoniicqo2skbxy6knhwxrfy
     dev: true
 
   /@vitest/expect/0.30.1:
@@ -4419,8 +4419,8 @@ packages:
       uncrypto: 0.1.2
     dev: true
 
-  /happy-dom/9.9.2:
-    resolution: {integrity: sha512-E+FouJ18tckCe04ky6mMtNEGGoXZrY+UFqHICNarQB+fCb4RtZeRbp2IOmoIYaQRjb5Iu3ChLNsLBnB8aA3vjA==}
+  /happy-dom/9.10.0:
+    resolution: {integrity: sha512-A2NGV4Z2goQEoFUed1jODPcG7WYHF04Ashv804qzIZU0I8kF5wQoJM6SVGC77nxZZAk7PypWzXKenfskgcpdMw==}
     dependencies:
       css.escape: 1.5.1
       he: 1.2.0
@@ -9117,7 +9117,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.30.1_wtrbyfdufcwft6i3armob42xn4:
+  /vitest/0.30.1_nigzoniicqo2skbxy6knhwxrfy:
     resolution: {integrity: sha512-y35WTrSTlTxfMLttgQk4rHcaDkbHQwDP++SNwPb+7H8yb13Q3cu2EixrtHzF27iZ8v0XCciSsLg00RkPAzB/aA==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -9162,7 +9162,7 @@ packages:
       chai: 4.3.7
       concordance: 5.0.4
       debug: 4.3.4
-      happy-dom: 9.9.2
+      happy-dom: 9.10.0
       local-pkg: 0.4.3
       magic-string: 0.30.0
       pathe: 1.1.0
