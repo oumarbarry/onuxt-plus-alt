@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@headlessui/vue": "1.7.13",
-    "@pinia/nuxt": "0.4.9"
+    "@pinia/nuxt": "0.4.10"
   },
   "devDependencies": {
     "@histoire/plugin-nuxt": "0.16.1",
