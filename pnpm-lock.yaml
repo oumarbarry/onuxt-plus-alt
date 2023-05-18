@@ -5,7 +5,7 @@ specifiers:
   '@histoire/plugin-nuxt': 0.16.1
   '@histoire/plugin-vue': 0.16.1
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
-  '@nuxtjs/google-fonts': 3.0.0
+  '@nuxtjs/google-fonts': 3.0.1
   '@nuxtjs/tailwindcss': 6.7.0
   '@pinia/nuxt': 0.4.11
   '@testing-library/vue': 7.0.0
@@ -48,7 +48,7 @@ devDependencies:
   '@histoire/plugin-nuxt': 0.16.1_toddcdooepvdxeydgpxvuvwh44
   '@histoire/plugin-vue': 0.16.1_histoire@0.16.1
   '@nuxt/test-utils-edge': 3.0.0-rc.9-27703329.537338f
-  '@nuxtjs/google-fonts': 3.0.0
+  '@nuxtjs/google-fonts': 3.0.1
   '@nuxtjs/tailwindcss': 6.7.0
   '@testing-library/vue': 7.0.0
   '@typescript-eslint/eslint-plugin': 5.59.6_hrzo544y7ygaq2nap7kmpxcgnm
@@ -1310,10 +1310,10 @@ packages:
       - vue-tsc
     dev: true
 
-  /@nuxtjs/google-fonts/3.0.0:
-    resolution: {integrity: sha512-knP2CJFkMHGQ9pepVNwquXvqiIHDma/6yZNXiYk7WWatRbbQUPf2423vXiBYu267Mff2KMuDLoAJ1Dsv2ymhdQ==}
+  /@nuxtjs/google-fonts/3.0.1:
+    resolution: {integrity: sha512-9W5jZhpJ4UTmiPebljdoxs+ju89rOBVD5gb0sPRe73BVXCUUv46lV2Q0ynPZPsnono5WlTB6nyZbOCECa7IWDQ==}
     dependencies:
-      '@nuxt/kit': 3.4.2
+      '@nuxt/kit': 3.5.0
       google-fonts-helper: 3.3.0
       pathe: 1.1.0
     transitivePeerDependencies:
@@ -1794,7 +1794,7 @@ packages:
       '@typescript-eslint/typescript-estree': 5.59.6_typescript@5.0.4
       eslint: 8.40.0
       eslint-scope: 5.1.1
-      semver: 7.5.0
+      semver: 7.5.1
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -4457,7 +4457,7 @@ packages:
       deepmerge: 4.3.1
       hookable: 5.5.3
       ofetch: 1.0.1
-      ufo: 1.1.1
+      ufo: 1.1.2
     dev: true
 
   /gopd/1.0.1:
